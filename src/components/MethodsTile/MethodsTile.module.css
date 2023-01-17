@@ -1,0 +1,41 @@
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px
+}
+
+.img {
+    width: calc(100% - 550px - 50px );
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.text {
+    width: 550px;
+    padding: 40px;
+    order: 2;
+    
+}
+
+.header {
+    font-size: 27px;
+    font-family: 'League Spartan', sans-serif;
+    color: #1D1D1B;
+    font-weight: 500;
+    margin-bottom: 45px
+}
+
+.paragraph {
+    font-family: 'League Spartan', sans-serif;
+    color: #1D1D1B;
+    margin-bottom: 20px;
+    font-size: 19px;
+    line-height: 120%;
+    font-weight: 500;
+    
+
+}
