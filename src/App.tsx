@@ -5,6 +5,7 @@ import { Home } from 'pages/Home/Home';
 import { Preschool } from 'pages/Preschool/Preschool';
 import { Babycare } from 'pages/Babycare/Babycare';
 import { OurMethods } from 'pages/Babycare/OurMethods';
+import { Team } from 'pages/Babycare/Team';
 
 import { appRoutes } from 'data/appRoutes/appRoutes';
 
@@ -19,6 +20,7 @@ export const App = () => {
 					<Route path={appRoutes.preschool} element={<Preschool />} />
 					<Route path={appRoutes.babycare} element={<Babycare />} />
 					<Route path={appRoutes.babycare_our_methods} element={<OurMethods />} />
+					<Route path={appRoutes.babycare_team} element={<Team />} />
 				</Routes>
 			</AnimatePresence>
 		</div>
