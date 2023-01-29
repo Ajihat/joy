@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    margin-top: 50px
+    margin-top: 45px
 }
 
 .img {
-    width: calc(100% - 550px - 50px );
-    height: 900px;
+    position: relative;
+    width: calc(100% - 550px - 45px );
+    height: 850px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -28,7 +29,8 @@
     font-family: 'League Spartan', sans-serif;
     color: #1D1D1B;
     font-weight: 500;
-    margin-bottom: 45px
+    line-height: 120%;
+    margin-bottom: 30px
 }
 
 .paragraph {
@@ -37,12 +39,48 @@
     margin-bottom: 20px;
     font-size: 19px;
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 400;
     
 
 }
 
 .accent_img {
     position: absolute;
+    transform: scale(1.15);
     
 }
+
+
+@media (max-width: 1100px) {
+   .article {
+    flex-wrap: wrap;
+   }
+   .img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 363/483;
+    order: 2;
+    background-position: 25% 50%;
+   }
+   .text {
+    width: 100%;
+    order: 1;
+    padding: 40px 25px 150px 25px;
+    margin-bottom: 45px;
+   }
+}
+
+@media (max-width: 650px) {
+    .img {
+        height: 500px;
+    }
+ }
+
+ @media (max-width: 550px) {
+    .article {
+        margin-top: 25px;
+    }
+    .text {
+        margin-bottom: 25px;
+    }
+ }

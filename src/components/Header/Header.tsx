@@ -1,8 +1,13 @@
+import { useEffect, useState, useCallback } from 'react';
+
 import styles from './Header.module.css';
 
 import { HeaderProps } from './Header.types';
 
-export const Header = ({ image, text, color, aligment }: HeaderProps) => {
+export const Header = ({ image, imageMobile, text, color, aligment, isRound }: HeaderProps) => {
+	const [activeImg, setActiveImg] = useState(() => {
+		return window.innerWidth > 800 ? image : imageMobile;
+	});
 	const position = {
 		left: {
 			bottom: '7%',
@@ -14,11 +19,24 @@ export const Header = ({ image, text, color, aligment }: HeaderProps) => {
 		},
 	};
 
+	const onWindowResize = useCallback(() => {
+		if (window.innerWidth > 800) {
+			setActiveImg(image);
+		} else {
+			setActiveImg(imageMobile);
+		}
+	}, [image, imageMobile]);
+
+	useEffect(() => {
+		window.addEventListener('resize', onWindowResize);
+		return () => window.removeEventListener('resize', onWindowResize);
+	}, [onWindowResize]);
+
 	return (
 		<div
 			className={styles.header}
 			style={{
-				backgroundImage: `url(${image})`,
+				backgroundImage: `url(${activeImg})`,
 			}}
 		>
 			<div
@@ -26,6 +44,7 @@ export const Header = ({ image, text, color, aligment }: HeaderProps) => {
 				style={{
 					backgroundColor: color,
 					...position[aligment],
+					borderRadius: isRound ? '20px' : '0',
 				}}
 			>
 				<h1 className={styles.text}>{text}</h1>

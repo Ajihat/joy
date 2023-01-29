@@ -1,5 +1,6 @@
 .footer {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
+    padding-top: 25px
 }
 
 .inner {
@@ -58,5 +59,44 @@
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: #A9CAE5;
 }
+
+
+@media (max-width: 1000px) {
+    .inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box {
+        width: 180px;
+        align-items: flex-start;
+    }
+    .box_last {
+        width: 100%;
+        align-items: center;
+    }
+    .circle {
+        left: 50%
+    }
+  }
+
+  @media (max-width: 500px) {
+    .inner {
+        justify-content: space-between;
+    }
+    .box {
+        width: 50%;
+        align-items: center;
+        height: 140px;
+    }
+    .box_last {
+        height: 140px;
+    }
+    .text {
+        font-size: 18px;
+        text-align: center;
+    }
+    .link {
+        font-size: 18px;
+    }
+  }

@@ -1,4 +1,29 @@
 .holder {
+    
     padding: 0 5%;
-    margin-top: 50px;
+    margin-top: 45px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .holder {
+        margin-top: 25px
+    }
+    .row {
+        gap: 25px
+    }
+  }

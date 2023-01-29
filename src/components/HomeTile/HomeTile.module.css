@@ -38,3 +38,14 @@
 .tile:hover .layer {
     opacity: 0.8;
 }
+
+
+@media (max-width: 1024px) {
+    .tile {
+      width: 440px;
+      margin: 25px;  
+    }
+    .text {
+        font-size: 50px;
+    }
+}

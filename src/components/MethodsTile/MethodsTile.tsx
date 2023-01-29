@@ -15,6 +15,12 @@ export const MethodsTile = ({
 	id,
 	accentImg,
 	accentImgPosition,
+	top,
+	left,
+	bottom,
+	right,
+	isRound,
+	textColor,
 }: MethodsTileProps) => {
 	const [currentImage, setCurrentImage] = useState(0);
 
@@ -29,17 +35,6 @@ export const MethodsTile = ({
 		});
 	}, [image]);
 
-	const accentPosition = {
-		top: {
-			top: '5%',
-			right: '5%',
-		},
-		bottom: {
-			bottom: '5%',
-			right: '5%',
-		},
-	};
-
 	useInterval(nextImage, 5000);
 
 	return (
@@ -48,30 +43,55 @@ export const MethodsTile = ({
 				className={styles.text}
 				style={{
 					backgroundColor: color,
+					borderRadius: isRound ? '25px' : '0',
 				}}
 			>
-				{header && <h2 className={styles.header}>{header}</h2>}
+				{header && (
+					<h2 className={styles.header} style={{ color: textColor }}>
+						{header}
+					</h2>
+				)}
 				{texts.map((text, index) => (
-					<p className={styles.paragraph} key={index}>
+					<p className={styles.paragraph} key={index} style={{ color: textColor }}>
 						{text}
 					</p>
 				))}
-				<img
-					className={styles.accent_img}
-					src={accentImg}
-					alt='accent-img'
-					style={{
-						...accentPosition[accentImgPosition],
-					}}
-				/>
+				{accentImgPosition === 'text' && (
+					<img
+						className={styles.accent_img}
+						src={accentImg}
+						alt='accent-img'
+						style={{
+							top,
+							left,
+							bottom,
+							right,
+						}}
+					/>
+				)}
 			</div>
 			<div
 				className={styles.img}
 				style={{
 					backgroundImage: typeof image === 'string' ? `url(${image})` : `url(${image[currentImage]})`,
 					order: isImgLeft ? '1' : '2',
+					borderRadius: isRound ? '25px' : '0',
 				}}
-			></div>
+			>
+				{accentImgPosition === 'image' && (
+					<img
+						className={styles.accent_img}
+						src={accentImg}
+						alt='accent-img'
+						style={{
+							top,
+							left,
+							bottom,
+							right,
+						}}
+					/>
+				)}
+			</div>
 		</article>
 	);
 };

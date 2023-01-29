@@ -1,8 +1,10 @@
 import { Holder } from 'components/Holder/Holder';
 
+import { FooterProps } from './Footer.types';
+
 import styles from './Footer.module.css';
 
-export const Footer = () => {
+export const Footer = ({ color }: FooterProps) => {
 	return (
 		<footer className={styles.footer}>
 			<Holder>
@@ -34,9 +36,14 @@ export const Footer = () => {
 						</a>
 					</div>
 					<div className={styles.box_last}>
-						<div className={styles.circle}></div>
-						<a className={styles.link} href='mailto: kontakt@baby-care.pl'>
-							e-mail: kontakt@baby-care.pl
+						<div
+							className={styles.circle}
+							style={{
+								backgroundColor: color,
+							}}
+						></div>
+						<a className={styles.link} href='mailto: kontakt@joypreschool.pl'>
+							e-mail: kontakt@joypreschool.pl
 						</a>
 					</div>
 				</div>

@@ -1,0 +1,108 @@
+.tile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 32%;
+    padding: 30px;
+    aspect-ratio: 1/1;
+}
+
+.text {
+    position: relative;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    color: #1D1D1B;
+    line-height: 130%;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.babycare-wheat {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    transform: scale(1.15);
+}
+
+.babycare-vege {
+    position: absolute;
+    top:5%;
+	left:42%;
+    transform: scale(1.15);
+}
+.babycare-apple {
+    position: absolute;
+    left:40px;
+	top: 35%;
+    transform: scale(1.2);
+}
+
+.preschool-wheat {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    transform: scale(1.1);
+}
+
+.preschool-vege {
+    position: absolute;
+    top:2%;
+	left:42%;
+    transform: scale(1.1);
+}
+.preschool-apple {
+    position: absolute;
+    left:45%;
+	bottom: 10%;
+    transform: scale(1.2);
+}
+
+@media (max-width: 1550px) {
+    .tile {
+        width: 440px;
+    }
+  }
+
+
+
+  @media (max-width: 500px) {
+    .babycare-wheat {
+        transform: scale(0.9);
+        bottom: 2%;
+        right: 2%;
+    }
+    .babycare-vege {
+        top: -15%;
+        left: 3%;
+        transform: scale(0.9);
+    }
+
+    .babycare-apple{
+        top: 10%;
+        left: 75%
+    }
+
+    .preschool-wheat {
+        bottom: -6%;
+        right: 3%;
+        transform: scale(0.8);
+    }
+    
+    .preschool-vege {
+        top:-5%;
+        left:42%;
+        transform: scale(0.8);
+    }
+    .preschool-apple {
+        left:40%;
+        bottom: 5%;
+        transform: scale(0.8);
+    }
+
+    .text {
+        font-size: 19px;
+    }
+  } 
+
+

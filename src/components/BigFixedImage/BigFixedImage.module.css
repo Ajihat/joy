@@ -1,0 +1,16 @@
+.image {
+    display: block;
+    height: 600px;
+    width: calc(100% - 546px - 45px);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 1000px) {
+    .image {
+        display: none;
+    }
+  }

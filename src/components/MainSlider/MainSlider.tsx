@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { MainSliderProps } from './MainSlider.types';
@@ -7,11 +7,18 @@ import { useInterval } from 'common/useInterval';
 
 import styles from './MainSlider.module.css';
 
-const FADE_INTERVAL_MS = 5000;
+type Images = {
+	imageDesktop: string;
+	imageMobile: string;
+};
+
 const SLIDE_INTERVAL_MS = 5000;
 
-export const MainSlider = ({ data }: MainSliderProps) => {
+export const MainSlider = ({ data, isRound }: MainSliderProps) => {
 	const [currentSlide, setCurrentSlide] = useState(0);
+	const [imageType, setImageType] = useState(() => {
+		return window.innerWidth > 700 ? 'imageDesktop' : 'imageMobile';
+	});
 
 	const nextSlide = useCallback(() => {
 		setCurrentSlide((prevSlide) => {
@@ -25,17 +32,31 @@ export const MainSlider = ({ data }: MainSliderProps) => {
 
 	useInterval(nextSlide, SLIDE_INTERVAL_MS);
 
+	const onWindowResize = useCallback(() => {
+		if (window.innerWidth > 700) {
+			setImageType('imageDesktop');
+		} else {
+			setImageType('imageMobile');
+		}
+	}, []);
+
+	useEffect(() => {
+		window.addEventListener('resize', onWindowResize);
+		return () => window.removeEventListener('resize', onWindowResize);
+	}, [onWindowResize]);
+
 	return (
 		<div
 			className={styles.slider}
 			style={{
-				backgroundImage: `url(${data[currentSlide].image})`,
+				backgroundImage: `url(${data[currentSlide].images[imageType as keyof Images]})`,
 			}}
 		>
 			<div
 				className={styles.box}
 				style={{
 					backgroundColor: data[currentSlide].color,
+					borderRadius: isRound ? '25px' : '0',
 				}}
 			>
 				<Link className={styles.link} to={data[currentSlide].href}>

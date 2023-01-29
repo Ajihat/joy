@@ -1,0 +1,121 @@
+.tile {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1920/900;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    margin-top: 45px;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 45px;
+    bottom: 45px;
+    left: 5%;
+    width: 546px;
+    padding: 40px 40px 20px 40px
+}
+
+.accent {
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    transform: scale(1.15);
+}
+
+.text {
+    position: relative;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 32px;
+    color: #1D1D1B;
+    line-height: 130%;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.circle {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.triangle {
+    position: absolute;
+    top: 55%;
+    right: 50%;
+}
+
+.arc {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+
+.holder {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 1919px) {
+    .box {
+        width: 43.5%;
+    }
+    
+  }
+
+@media (max-width: 1100px) {
+    .text {
+        font-size: 26px;
+    }
+    
+  }
+
+  @media (max-width: 950px) {
+    .tile {
+        aspect-ratio: 428/270;
+        border-radius: 25px;
+    }
+    .box {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 25px 5vw
+
+    }
+    .circle {
+        display: none;
+    }
+    
+  }
+
+  @media (max-width: 700px) {
+    .tile {
+        aspect-ratio: 428/370;
+    }
+    
+  }
+
+  @media (max-width: 550px) {
+    .tile {
+        margin-top: 25px
+    }
+  }
+
+  @media (max-width: 500px) {
+    .tile {
+        aspect-ratio: 428/520;
+    }
+    .circle, .triangle, .arc, .accent {
+        display: none;
+    }
+    
+  }

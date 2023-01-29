@@ -1,20 +1,44 @@
 .header {
     position: relative;
-    height: 715px;
+    aspect-ratio: 1920/715;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-position: top left;
+    background-size: 100%;
 }
 
 .box {
     position: absolute;
-    padding: 30px 40px
+    padding: 30px 40px;
+    max-width: 350px;
 }
 
 .text {
     color: #1D1D1B;
     font-size: 38px;
-    font-weight: 500
+    font-weight: 500;
+    line-height: 120%;
 }
+
+
+@media (max-width: 1024px) {
+    .text {
+        font-size: 28px;
+    }
+    .box {
+        padding: 25px 35px
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        aspect-ratio: 1/1;
+    }
+
+    .box {
+        padding: 15px 30px;
+        max-width: 325px;
+    }
+}
+

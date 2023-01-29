@@ -1,0 +1,29 @@
+.tile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 546px;
+    height: 600px;
+    padding: 40px 40px 25px 40px
+}
+
+.text {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    color: #1D1D1B;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+.holder {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.accent {
+    position: absolute;
+    bottom: 15%;
+}

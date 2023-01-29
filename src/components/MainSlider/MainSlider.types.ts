@@ -1,9 +1,13 @@
 export interface MainSliderProps {
 	data: {
 		id: number;
-		image: string;
+		images: {
+			imageDesktop: string;
+			imageMobile: string;
+		};
 		text: string;
 		href: string;
 		color: string;
 	}[];
+	isRound: boolean;
 }

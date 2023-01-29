@@ -6,5 +6,11 @@ export interface MethodsTileProps {
 	isImgLeft: boolean;
 	id?: string;
 	accentImg: string;
-	accentImgPosition: 'top' | 'bottom';
+	accentImgPosition: 'image' | 'text';
+	top: string;
+	left: string;
+	bottom: string;
+	right: string;
+	isRound: boolean;
+	textColor: string;
 }
