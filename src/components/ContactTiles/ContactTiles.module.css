@@ -1,0 +1,140 @@
+.contactTiles {
+    margin-top: 200px;
+}
+
+.header {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 36px;
+    color: #1D1D1B;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15px
+}
+
+.wrapper {
+    width: 31.5%;
+}
+
+.link {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 25px;
+    
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 25px;
+}
+
+.logo {
+    display: block;
+    width: 50%;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 345px;
+    height: 195px;
+}
+
+.box_last {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 345px;
+    height: 195px;
+
+}
+
+.text {
+    color: #1D1D1B;
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+.link {
+    display: block;
+    color: #1D1D1B;
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.circle {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+
+@media (max-width: 1024px) {
+    .inner {
+        flex-direction: column;
+    }
+    .wrapper {
+        width: 100%;
+    }
+  }
+
+
+  @media (max-width: 650px) {
+    .header {
+        font-size: 25px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .box {
+        height: 150px;
+    }
+    .box_last {
+        height: 150px;
+    }
+    .last {
+        display: none;
+    }
+
+    .contactTiles {
+        margin-top: 150px;
+    }
+  }

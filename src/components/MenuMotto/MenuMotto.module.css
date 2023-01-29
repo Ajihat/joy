@@ -1,0 +1,32 @@
+.motto {
+    max-width: 1200px;
+    padding: 0 5%;
+    margin: 6vw auto
+}
+
+.text {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 45px;
+    color: #1D1D1B;
+    line-height: 130%;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 30px;
+    
+}
+
+@media (max-width: 1400px) {
+    .text {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .text {
+        font-size: 26px;
+    }
+
+    .motto {
+        margin: 8vw auto
+    }
+  }

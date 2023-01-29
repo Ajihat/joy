@@ -1,0 +1,137 @@
+.tiles {
+    padding: 0 5%;
+    margin-top: 200px
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 546px;
+    aspect-ratio: 546/600;
+    padding: 40px 40px 20px 40px;
+}
+
+.image {
+    width: calc(100% - 45px - 546px);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    position: relative;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    color: white;
+    line-height: 130%;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.singleImg {
+    display: block;
+    width: 546px;
+
+}
+
+.link {
+    display: block;
+    width: 100%;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 130%;
+    max-width: 270px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1919px) {
+    .singleImg {
+        display: none;
+    }
+    .boxBottom {
+        width: calc((100% / 2) - 45px / 2)
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .tiles {
+        margin-top: 40px;
+    }
+    .singleImg {
+        display: block;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+        order: 2;
+        aspect-ratio: auto;
+        padding: 40px 25px 150px 25px;
+
+
+    }
+
+    .boxBottom:first-of-type {
+        padding: 150px 25px 40px 25px;
+        margin-bottom: 45px;
+    }
+
+    .image {
+        width: 100%;
+        aspect-ratio: 375/ 400;
+        height: auto;
+        order: 1;
+        margin-bottom: 45px
+    }
+
+    .link {
+        font-size: 35px;
+        max-width: 235px;
+    }
+}
+
+@media (max-width: 550px) {
+    .row {
+        margin-bottom: 25px;
+    }
+    .image {
+        margin-bottom: 25px;
+    }
+    .boxBottom:first-of-type {
+        margin-bottom: 25px;
+    }
+    .singleImg {
+        margin-bottom: 25px;
+    }
+}

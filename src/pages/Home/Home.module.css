@@ -7,3 +7,10 @@
     background-color: rgb(230, 204, 202);
     transition: .05s;
 }
+
+
+@media (max-width: 1024px) {
+    .home {
+        
+    }
+}

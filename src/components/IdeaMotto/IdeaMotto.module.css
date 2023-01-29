@@ -1,0 +1,93 @@
+.motto {
+    max-width: 900px;
+    padding: 0 5%;
+    margin: 15vw auto 6vw auto;
+}
+
+.text {
+    position: relative;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 45px;
+    color: #1D1D1B;
+    line-height: 130%;
+    text-align: left;
+    font-weight: 500;
+    padding: 0 30px;
+    
+}
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.circle:first-child {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) translateX(-150%)
+    
+}
+
+.circle:last-child {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) translateX(150%)
+    
+}
+
+
+@media (max-width: 1400px) {
+    .text {
+        font-size: 35px;
+    }
+
+    .motto {
+        max-width: 700px;
+        margin: 20vw auto 6vw auto;
+    }
+  }
+
+
+@media (max-width: 1024px) {
+    
+    .motto {
+        max-width: 540px;
+        margin: 200px auto 6vw auto;
+    }
+  }
+
+
+  @media (max-width: 750px) {
+    
+    .motto {
+        max-width: none;
+        width: 100%;
+        margin: 0;
+        margin-top: 150px
+    }
+
+    .text {
+        padding: 100px 0;
+        width: 80%;
+        
+    }
+    .circle {
+        width: 70px;
+        height: 70px;
+    }
+
+    .circle:first-child {
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .circle:last-child {
+        top: initial;
+        bottom: 0;
+        right: initial;
+        left: 0;
+        transform: none;
+    }
+  }

@@ -1,0 +1,172 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 45px 0;
+    padding: 0 5%;
+    row-gap: 45px;
+}
+
+.tile, .imageTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 546px;
+    aspect-ratio: 546/600;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.imageTile {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.inner {
+    position: relative;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.innerEnglish {
+    position: relative;
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.header {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.text {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: white
+}
+
+.accent {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    transform: translateY(-50%) scale(1.15);
+}
+
+.link {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    align-self: flex-end;
+    font-size: 18px;
+    background-color: white;
+    padding: 15px 45px;
+    text-decoration: none;
+    border-radius: 45px;
+    transition: .3s;
+}
+
+.link:hover {
+    background-color: lightgray;
+}
+
+.chat {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+
+@media (max-width: 1919px) {
+    .tile, .imageTile {
+        width: 48.5%;
+    }
+    .text {
+        font-size: 19px;
+    }
+  }
+
+
+  @media (max-width: 1200px) {
+    .tile {
+        width: 100%;
+        aspect-ratio: 546/450;
+    }
+    .imageTile {
+        display: none;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .tile {
+        width: 100%;
+        aspect-ratio: 546/550;
+    }
+
+  }
+
+  @media (max-width: 700px) {
+    .tile {
+        width: 100%;
+        aspect-ratio: 546/650;
+    }
+
+  }
+
+
+  @media (max-width: 550px) {
+    .container {
+        row-gap: 25px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .header {
+        font-size: 24px;
+    }
+    .tile {
+        aspect-ratio: 546/700;
+    }
+    .accent {
+        transform: translateY(-50%) scale(0.8);
+    }
+    .container {
+        margin: 25px 0;
+    }
+    
+  }
+
+  @media (max-width: 460px) {
+    .tile {
+        aspect-ratio: 546/800;
+    }
+    
+  }
+
+  @media (max-width: 400px) {
+    .tile {
+        aspect-ratio: 546/850;
+    }
+    
+  }
