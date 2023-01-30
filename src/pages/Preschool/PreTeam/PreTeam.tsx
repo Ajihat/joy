@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { Header } from 'components/Header/Header';
 import { Holder } from 'components/Holder/Holder';
@@ -18,6 +19,13 @@ import pattern from 'assets/decorations/pattern.svg';
 export const PreTeam = () => {
 	return (
 		<motion.div initial={{ opacity: 0.2 }} animate={{ opacity: 1 }}>
+			<Helmet>
+				<title>Joy | Preschool | Zespół</title>
+				<meta
+					name='description'
+					content='W Joy Preschool uważamy, że dzieci to osoby, które zasługują na największą uwagę. Pod dobrą opieką troskliwych nauczycieli będą się doskonale rozwijać, dzięki czemu nie tylko dadzą pociechę rodzicom, ale także wiele osiągną w późniejszym życiu.'
+				/>
+			</Helmet>
 			<Header
 				image={headerImgDesktop}
 				imageMobile={headerImgMobile}

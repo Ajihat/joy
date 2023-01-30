@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { IdeaMotto } from 'components/IdeaMotto/IdeaMotto';
 import { IdeaTiles } from 'components/IdeaTiles/IdeaTiles';
@@ -14,6 +15,13 @@ import image3 from 'assets/preschool/PreIdea/preschool_idea_image3.jpg';
 export const PreIdea = () => {
 	return (
 		<motion.div initial={{ opacity: 0.2 }} animate={{ opacity: 1 }}>
+			<Helmet>
+				<title>Joy | Preschool | Idea</title>
+				<meta
+					name='description'
+					content='W Joy Preschool naszą ideą jest niestandardowe podejście do edukacji w którym stawiamy na kreatywne podejście i nieszablonowe pomysły. Tworzymy atmosferę zaufania, wzrastania i rozwoju w poczucie bezpieczeństwa i akceptacji. Ważna jest dla nas bliskość i szczerość relacji.'
+				/>
+			</Helmet>
 			<IdeaMotto
 				text='Jesteśmy kameralnym miejscem, gdzie panuje przyjazna i troskliwa atmosfera.'
 				circleColor='#E79A8F'

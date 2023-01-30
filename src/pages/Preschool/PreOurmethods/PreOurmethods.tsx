@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { Header } from 'components/Header/Header';
 import { Holder } from 'components/Holder/Holder';
@@ -44,6 +45,13 @@ export const PreOurmethods = () => {
 	}, [hash]);
 	return (
 		<motion.div initial={{ opacity: 0.2 }} animate={{ opacity: 1 }}>
+			<Helmet>
+				<title>Joy | Preschool | Nasze metody</title>
+				<meta
+					name='description'
+					content='Naszą ideą jest niestandardowe podejście do edukacji w którym stawiamy na kreatywne podejście i nieszablonowe pomysły. Wykorzystujemy do tego prowokacje edukacyjne, , zarażamy zamiłowaniem do muzyki i pasją do literatury, wykorzystujemy otaczającą nas naturę, by jak najpełniej wykorzystać potrzebę ruchu i ciekawość poznawczą dziecka. Całości dopełnia codzienny kontakt z wielokulturowym zespołem edukatorów i zanurzeniem w języku angielskim.'
+				/>
+			</Helmet>
 			<Header
 				image={headerImg}
 				imageMobile={headerImgMobile}

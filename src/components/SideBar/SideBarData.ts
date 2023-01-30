@@ -111,7 +111,7 @@ export const preschoolLinks = [
 		href: appRoutes.preschool_contact,
 	},
 	{
-		id: 11,
+		id: 12,
 		title: 'nasz żłobek',
 		href: appRoutes.preschool,
 	},

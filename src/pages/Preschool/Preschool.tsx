@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { MainSlider } from 'components/MainSlider/MainSlider';
 import { PreschoolTiles } from 'components/PreschoolTiles/PreschoolTiles';
@@ -23,6 +24,13 @@ import styles from 'pages/Preschool/Preschool.module.css';
 export const Preschool = () => {
 	return (
 		<motion.div className={styles.preschool} initial={{ opacity: 0.2 }} animate={{ opacity: 1 }}>
+			<Helmet>
+				<title>Joy | Preschool</title>
+				<meta
+					name='description'
+					content='Witamy w Joy Preschool. Jesteśmy miejscem z 15-letnim doświadczeniem w edukacji i opiece nad dziećmi w wieku przedszkolnym. Naszą filozofię kreowaliśmy pod nazwą KidsCollege i tak pewnie zapamięta nas wielu absolwentów. Jesteśmy kameralnym miejscem, gdzie panuje przyjazna i troskliwa atmosfera.'
+				/>
+			</Helmet>
 			<MainSlider data={mainSliderData} isRound={true} />
 			<PreschoolTiles />
 			<MenuTile
