@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { Header } from 'components/Header/Header';
 import { Footer } from 'components/Footer/Footer';
@@ -17,6 +18,13 @@ import { teamData } from 'data/Babycare/teamData/teamData';
 export const Team = () => {
 	return (
 		<motion.div initial={{ opacity: 0.2 }} animate={{ opacity: 1 }}>
+			<Helmet>
+				<title>Joy | Babycare | Zespół</title>
+				<meta
+					name='description'
+					content='W Joy Babycare uważamy, że dzieci to osoby, które zasługują na największą uwagę. Pod dobrą opieką troskliwych nauczycieli będą się doskonale rozwijać, dzięki czemu nie tylko dadzą pociechę rodzicom, ale także wiele osiągną w późniejszym życiu.'
+				/>
+			</Helmet>
 			<Header
 				color='#80AA6E'
 				text='Załoga Joy'

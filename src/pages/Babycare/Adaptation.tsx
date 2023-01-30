@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { Adaptationtiles } from 'components/AdaptationTiles/Adaptationtiles';
 import { Logo } from 'components/Logo/Logo';
@@ -15,6 +16,13 @@ export const Adaptation = () => {
 				backgroundColor: '#E6CCCA',
 			}}
 		>
+			<Helmet>
+				<title>Joy | Babycare | Adaptacja</title>
+				<meta
+					name='description'
+					content='W Joy Babycare poprzez czułą adaptację wspólnie z Rodzicem wprowadzamy maluszki w nasz wyjątkowy, żłobkowy świat. Na co dzień dużo przytulamy, bujamy, kołyszemy, bierzemy na ręce, na kolana, dużo czytamy. Są to naturalne i najwłaściwsze oznaki naszej bliskości i troski, które dają dzieciom poczucie bezpieczeństwa.'
+				/>
+			</Helmet>
 			<Adaptationtiles />
 			<Logo site='babycare' />
 			<Burger site='babycare' />

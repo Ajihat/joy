@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { Header } from 'components/Header/Header';
 import { MenuMotto } from 'components/MenuMotto/MenuMotto';
@@ -23,6 +24,13 @@ import styles from './Menu.module.css';
 export const Menu = () => {
 	return (
 		<motion.div initial={{ opacity: 0.2 }} animate={{ opacity: 1 }}>
+			<Helmet>
+				<title>Joy | Babycare | Jadłospis</title>
+				<meta
+					name='description'
+					content='W Joy Babycare żywienie dzieci w zgodzie z naturą oznacza powrót do tradycyjnego żywienia, z tą różnicą, że teraz, zgodnie z obecną wiedzą dietetyczną, promuje się produkty mniej tłuste i ogólnie "lżejsze".'
+				/>
+			</Helmet>
 			<Header
 				text='Żywimy dzieci w zgodzie z naturą'
 				color='#A9CAE5'

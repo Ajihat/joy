@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { MainSlider } from 'components/MainSlider/MainSlider';
 import { Holder } from 'components/Holder/Holder';
@@ -35,6 +36,13 @@ import { mainSliderData } from 'data/Babycare/mainSliderData';
 export const Babycare = () => {
 	return (
 		<motion.div initial={{ opacity: 0.2 }} animate={{ opacity: 1 }}>
+			<Helmet>
+				<title>Joy | Babycare</title>
+				<meta
+					name='description'
+					content='Witamy w Joy Babycare. Już od 15 lat dbamy o to, aby nasze miejsce jak najlepiej spełniało swoją ważną rolę. Nasi najmłodsi podopieczni i ich rodzice czują się u nas bezpiecznie, swobodnie i przyjemnie, jak w domu.'
+				/>
+			</Helmet>
 			<MainSlider data={mainSliderData} isRound={false} />
 			<Holder additionalClass='row'>
 				<SmallTile

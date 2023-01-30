@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 import { Header } from 'components/Header/Header';
 import { Holder } from 'components/Holder/Holder';
@@ -38,6 +39,13 @@ export const OurMethods = () => {
 	}, [hash]);
 	return (
 		<motion.div initial={{ opacity: 0.2 }} animate={{ opacity: 1 }}>
+			<Helmet>
+				<title>Joy | Babycare | Nasze metody</title>
+				<meta
+					name='description'
+					content='W Joy Babycare misją jest stworzenie dzieciom przestrzeni do swobodnego tworzenia, by doświadczając stawały się otwartymi i samodzielnymi ludźmi. Zarażamy maluchy naszym zamiłowaniem do muzyki, która towarzyszy nam w każdym momencie dnia i wspiera nas w budowaniu z dziećmi bliskich więzi. Wykorzystujemy otaczającą nas naturę, by jak najpełniej wykorzystać potrzebę ruchu i ciekawość poznawczą dziecka.'
+				/>
+			</Helmet>
 			<Header
 				image={headerImg}
 				imageMobile={headerImgMobile}
