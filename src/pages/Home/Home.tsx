@@ -18,12 +18,16 @@ export const Home = () => {
 				<title>Joy | Preschool & Babycare</title>
 				<meta
 					name='description'
-					content='Witamy w Joy Preschool & Babycare. Jesteśmy miejscem z 15-letnim doświadczeniem w edukacji dzieci w wieku przedszkolnym i żłobkowym'
+					content='Witamy w Joy Preschool & Babycare. Jesteśmy miejscem z 15-letnim doświadczeniem w edukacji dzieci w wieku przedszkolnym i żłobkowym.'
 				/>
 			</Helmet>
-			<HomeLogo />
-			<HomeTile text='joy preschool' color='#313F29' linkUrl={appRoutes.preschool} image={preschoolImg} />
-			<HomeTile text='joy babycare' color='#416780' linkUrl={appRoutes.babycare} image={babycareImg} />
+			<div className={styles.logoHolder}>
+				<HomeLogo />
+			</div>
+			<div className={styles.inner}>
+				<HomeTile text='joy preschool' color='#313F29' linkUrl={appRoutes.preschool} image={preschoolImg} />
+				<HomeTile text='joy babycare' color='#416780' linkUrl={appRoutes.babycare} image={babycareImg} />
+			</div>
 		</motion.div>
 	);
 };

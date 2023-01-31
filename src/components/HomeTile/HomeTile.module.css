@@ -49,3 +49,22 @@
         font-size: 50px;
     }
 }
+
+@media (max-width: 650px) {
+    .tile {
+        width: 90%;
+        aspect-ratio: 1/1;
+        margin: 3%
+    }
+  }
+
+
+  @media (max-width: 400px) {
+    .tile {
+        width: 90%;
+        aspect-ratio: 1/1;
+    }
+    .text {
+        font-size: 40px;
+    }
+  }
