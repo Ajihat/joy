@@ -8,6 +8,8 @@ import { Logo } from 'components/Logo/Logo';
 
 import img1 from 'assets/preschool/PreContact/contact_preschool_img1.jpg';
 import img2 from 'assets/preschool/PreContact/contact_preschool_img2.jpg';
+import img3 from 'assets/preschool/PreContact/contact_preschool_img3.jpg';
+import img4 from 'assets/preschool/PreContact/contact_preschool_img4.jpg';
 import preschoolLogo from 'assets/preschool/preschool_logo_svg.svg';
 
 export const PreContact = () => {
@@ -29,6 +31,8 @@ export const PreContact = () => {
 			<ContactTiles
 				image1={img1}
 				image2={img2}
+				image3={img3}
+				image4={img4}
 				color='#D5DCD0'
 				logo={preschoolLogo}
 				isRound={true}

@@ -4,7 +4,16 @@ import { ContactTilesProps } from './ContactTiles.types';
 
 import styles from './ContactTiles.module.css';
 
-export const ContactTiles = ({ image1, image2, color, logo, isRound, circleColor }: ContactTilesProps) => {
+export const ContactTiles = ({
+	image1,
+	image2,
+	image3,
+	image4,
+	color,
+	logo,
+	isRound,
+	circleColor,
+}: ContactTilesProps) => {
 	return (
 		<div className={styles.contactTiles}>
 			<Holder>
@@ -19,10 +28,11 @@ export const ContactTiles = ({ image1, image2, color, logo, isRound, circleColor
 							}}
 						>
 							<img className={styles.image} src={image1} alt='placówka-Wilanów' />
+							<img className={styles.image} src={image3} alt='placówka-Wilanów' />
 						</a>
 						<div className={styles.box}>
 							<p className={styles.text}>
-								Wilanów
+								<span className={styles.bold}>Wilanów</span>
 								<br />
 								ul. Jara 12a
 								<br />
@@ -43,10 +53,11 @@ export const ContactTiles = ({ image1, image2, color, logo, isRound, circleColor
 							}}
 						>
 							<img className={styles.image} src={image2} alt='placówka-Wawer' />
+							<img className={styles.image} src={image4} alt='placówka-Wilanów' />
 						</a>
 						<div className={styles.box}>
 							<p className={styles.text}>
-								Wawer
+								<span className={styles.bold}>Wawer</span>
 								<br />
 								ul. Akwarelowa 22
 								<br />
@@ -76,7 +87,7 @@ export const ContactTiles = ({ image1, image2, color, logo, isRound, circleColor
 								}}
 							></div>
 							<a className={styles.link} href='mailto: kontakt@joypreschool.pl'>
-								e-mail: kontakt@joypreschool.pl
+								<span className={styles.bold}>e-mail: kontakt@joypreschool.pl</span>
 							</a>
 						</div>
 					</div>

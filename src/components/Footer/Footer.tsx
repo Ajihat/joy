@@ -11,7 +11,7 @@ export const Footer = ({ color }: FooterProps) => {
 				<div className={styles.inner}>
 					<div className={styles.box}>
 						<p className={styles.text}>
-							Wilanów
+							<span className={styles.bold}>Wilanów</span>
 							<br />
 							ul. Jara 12a
 							<br />
@@ -24,7 +24,7 @@ export const Footer = ({ color }: FooterProps) => {
 					</div>
 					<div className={styles.box}>
 						<p className={styles.text}>
-							Wawer
+							<span className={styles.bold}>Wawer</span>
 							<br />
 							ul. Akwarelowa 22
 							<br />
@@ -43,7 +43,7 @@ export const Footer = ({ color }: FooterProps) => {
 							}}
 						></div>
 						<a className={styles.link} href='mailto: kontakt@joypreschool.pl'>
-							e-mail: kontakt@joypreschool.pl
+							<span className={styles.bold}>e-mail: kontakt@joypreschool.pl</span>
 						</a>
 					</div>
 				</div>

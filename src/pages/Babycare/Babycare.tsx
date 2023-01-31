@@ -80,6 +80,7 @@ export const Babycare = () => {
 					accentImg={conffeti}
 					image={small3}
 					href='#pracownia-relacyjna'
+					additionalClass='last'
 				/>
 				<SmallFixedImage image={fixed3} />
 				<SmallTile
@@ -90,6 +91,7 @@ export const Babycare = () => {
 					accentImg={thread}
 					image={small4}
 					href='#pracownia-manualna'
+					additionalClass='last'
 				/>
 			</Holder>
 			<MenuTile

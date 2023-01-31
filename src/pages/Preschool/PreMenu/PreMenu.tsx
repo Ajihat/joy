@@ -33,7 +33,7 @@ export const PreMenu = () => {
 				/>
 			</Helmet>
 			<Header
-				text='Żywimy dzieci w zgodzie z naturą'
+				text='żywimy dzieci w zgodzie z naturą'
 				image={headerImg}
 				color='#A9CAE5'
 				imageMobile={headerImgMObile}

@@ -11,11 +11,12 @@
     height: 81px;
     background-color: white;
     top: 0;
-    left: 1.5%;
+    left: calc(5% - 40px);
     transition: .2s;
     z-index: 10;
     cursor: pointer;
     transform-origin: top left;
+    transform: scale(0.75);
 
     
 }
@@ -39,6 +40,7 @@
     transition-delay: .4s;
     cursor: pointer;
     transform-origin: top left;
+    transform: scale(0.75);
 
 
 }
@@ -135,8 +137,24 @@
 }
 
 
+
 @media (max-width: 1000px) {
-    .logo {
-        display: none;
+    .logo, .logoDown {
+        transform: scale(0.65);
+        left: 3%
     }
-}
+    .logoDown{
+        left: 5%;
+    }
+     
+  }
+
+  @media (max-width: 550px) {
+    .logo {
+        transform: scale(0.6);
+
+    }
+     
+  }
+
+

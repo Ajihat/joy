@@ -4,7 +4,7 @@
     top: 0;
     right: 0;
     z-index: 90;
-    padding: 100px 10px 50px 40px;
+    padding: 80px 40px 50px 40px;
     transform: translateX(100%);
     transition: .1s;
     
@@ -20,7 +20,11 @@
 
 .listitem {
     color: white;
-    margin-bottom: 25px
+    padding: 12px 0
+}
+
+.listitem:last-child {
+    border-top: 1px solid white;
 }
 
 .link {
@@ -44,6 +48,6 @@
         font-size: 20px;
     }
     .listitem {
-        margin-bottom: 20px
+        padding: 8px 0;
     } 
   }

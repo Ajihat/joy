@@ -56,7 +56,7 @@ export const OurMethods = () => {
 			/>
 			<Holder>
 				<MethodsTile
-					header='Zamiłowanie do muzyki'
+					header='zamiłowanie do muzyki'
 					image={img1}
 					color='#EFC46E'
 					texts={ourMethodsData.zamilowanie_do_muzyki}
@@ -72,7 +72,7 @@ export const OurMethods = () => {
 					textColor='#1D1D1B'
 				/>
 				<MethodsTile
-					header='Natura i ruch'
+					header='natura i ruch'
 					image={img2}
 					color='#80AA6E'
 					texts={ourMethodsData.natura_i_ruch}
@@ -88,7 +88,7 @@ export const OurMethods = () => {
 					textColor='#1D1D1B'
 				/>
 				<MethodsTile
-					header='Bliskie więzi'
+					header='bliskie więzi'
 					image={img3}
 					color='#E6CCCA'
 					texts={ourMethodsData.bliskie_wiezi}
@@ -104,7 +104,7 @@ export const OurMethods = () => {
 					textColor='#1D1D1B'
 				/>
 				<MethodsTile
-					header='Swoboda tworzenia'
+					header='swoboda tworzenia'
 					image={img4}
 					color='#A9CAE5'
 					texts={ourMethodsData.swoboda_tworzenia}

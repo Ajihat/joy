@@ -8,6 +8,8 @@ import { Logo } from 'components/Logo/Logo';
 
 import img1 from 'assets/babycare/Contact/contact_babycare_img1.jpg';
 import img2 from 'assets/babycare/Contact/contact_babycare_img2.jpg';
+import img3 from 'assets/babycare/Contact/contact_babycare_img3.jpg';
+import img4 from 'assets/babycare/Contact/contact_babycare_img4.jpg';
 import babycareLogo from 'assets/babycare/babycare_logo_svg.svg';
 
 export const Contact = () => {
@@ -29,6 +31,8 @@ export const Contact = () => {
 			<ContactTiles
 				image1={img1}
 				image2={img2}
+				image3={img3}
+				image4={img4}
 				color='#E5EEF1'
 				logo={babycareLogo}
 				isRound={false}

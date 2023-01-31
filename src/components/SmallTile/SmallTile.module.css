@@ -1,6 +1,10 @@
 .tile {
-    width: 546px;
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 32%;
+    aspect-ratio: 546 / 600;
 }
 
 .image {
@@ -15,7 +19,7 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 25px;
-    height: 315px;
+    flex: 1;
     
 }
 
@@ -29,14 +33,14 @@
 .header {
     font-family: 'League Spartan', sans-serif;
     font-weight: 500;
-    font-size: 27px;
+    font-size: 25px;
     margin-bottom: 25px
 }
 
 .text {
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 120%;
 }
 
@@ -57,10 +61,62 @@
     background-color: lightgray
 }
 
+@media (max-width: 1919px) {
+    .text {
+        font-size: 16px;
+    }
+  }
+
+  @media (max-width: 1650px) {
+    .text {
+        font-size: 14px;
+    }
+    .header {
+        font-size: 20px;
+    margin-bottom: 15px
+    }
+    .link {
+        font-size: 16px;
+        padding: 10px 35px;
+    }
+  }
+
+  @media (max-width: 1450px) {
+    .text {
+        font-size: 13px;
+    }
+    
+    
+  }
+
+  @media (max-width: 1350px) {
+    .tile {
+        width: 546px;
+    }
+
+    .last {
+        width: 49%;
+    }
+    .text {
+        font-size: 19px;
+    }
+    .header {
+        font-size: 25px;
+    margin-bottom: 25px
+    }
+
+    .link {
+        font-size: 18px;
+        padding: 15px 45px;
+    }
+    
+  }
+
 @media (max-width: 1000px) {
     .tile {
         width: 100%;
         height: auto;
+        aspect-ratio: 546 / 450;
     }
 
     .accent {

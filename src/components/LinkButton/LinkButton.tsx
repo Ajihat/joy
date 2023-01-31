@@ -10,7 +10,7 @@ export const LinkButton = ({ linkText, href, textColor }: LinkButtonProps) => {
 	return (
 		<Link className={styles.link} to={href}>
 			<div className={styles.circle}>
-				<img src={arrow} alt='link' />
+				<img src={arrow} alt='link' className={styles.arrow} />
 			</div>
 			<span
 				className={styles.text}

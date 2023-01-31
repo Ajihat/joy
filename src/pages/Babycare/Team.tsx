@@ -27,7 +27,7 @@ export const Team = () => {
 			</Helmet>
 			<Header
 				color='#80AA6E'
-				text='Załoga Joy'
+				text='załoga Joy'
 				aligment='left'
 				image={headerImg}
 				imageMobile={headerImgMobile}

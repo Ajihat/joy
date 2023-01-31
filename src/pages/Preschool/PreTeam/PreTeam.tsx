@@ -29,7 +29,7 @@ export const PreTeam = () => {
 			<Header
 				image={headerImgDesktop}
 				imageMobile={headerImgMobile}
-				text='Załoga Joy'
+				text='załoga Joy'
 				color='#E79A8F'
 				aligment='left'
 				isRound={true}

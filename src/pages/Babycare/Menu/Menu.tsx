@@ -32,7 +32,7 @@ export const Menu = () => {
 				/>
 			</Helmet>
 			<Header
-				text='Żywimy dzieci w zgodzie z naturą'
+				text='żywimy dzieci w zgodzie z naturą'
 				color='#A9CAE5'
 				image={headerImg}
 				imageMobile={headerImgMobile}

@@ -3,6 +3,7 @@ import { LinkButton } from 'components/LinkButton/LinkButton';
 import { MenuTileProps } from './MenuTile.types';
 
 import redCircle from 'assets/decorations/red-circle.svg';
+import blueCircle from 'assets/decorations/adaptation_circle.svg';
 import blueTriangle from 'assets/decorations/blue-triangle.svg';
 import greenArc from 'assets/decorations/green-arc.svg';
 
@@ -32,7 +33,7 @@ export const MenuTile = ({ image, color, accentImg, text, href, linkText, textCo
 					{text}
 				</p>
 				<img className={styles.accent} src={accentImg} alt='warzywa' />
-				<img className={styles.circle} src={redCircle} alt='dekoracja' />
+				<img className={styles.circle} src={isRound ? blueCircle : redCircle} alt='dekoracja' />
 				<div className={styles.holder}>
 					<LinkButton linkText={linkText} href={href} textColor={textColor} />
 				</div>

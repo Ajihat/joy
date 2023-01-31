@@ -32,17 +32,21 @@
 
 .text {
     color: #1D1D1B;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 130%;
+    font-weight: 400;
+}
+
+.bold {
     font-weight: 500;
 }
 
 .link {
     display: block;
     color: #1D1D1B;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 130%;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
 
 }
@@ -54,7 +58,7 @@
 .circle {
     position: absolute;
     top: 50%;
-    left: 42%;
+    left: 36%;
     transform: translate(-50%,-50%);
     width: 35px;
     height: 35px;

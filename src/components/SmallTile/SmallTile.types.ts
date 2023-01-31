@@ -5,4 +5,5 @@ export interface SmallTileProps {
 	color: string;
 	accentImg: string;
 	href: string;
+	additionalClass?: string;
 }

@@ -6,16 +6,10 @@ import { SmallTileProps } from './SmallTile.types';
 
 import styles from './SmallTile.module.css';
 
-export const SmallTile = ({ color, image, header, text, accentImg, href }: SmallTileProps) => {
-	// const handleLinkClick = () => {
-	// 	const timeoutId = setTimeout(() => {
-	// 		window.location.hash = href;
-	// 	}, 700);
-	// 	return () => clearTimeout(timeoutId);
-	// };
+export const SmallTile = ({ color, image, header, text, accentImg, href, additionalClass }: SmallTileProps) => {
 	return (
 		<div
-			className={styles.tile}
+			className={`${styles.tile} ${additionalClass ? styles.last : null}`}
 			style={{
 				backgroundColor: color,
 			}}

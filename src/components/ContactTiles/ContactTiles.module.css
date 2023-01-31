@@ -1,10 +1,11 @@
 .contactTiles {
     margin-top: 200px;
+    padding-bottom: 80px;
 }
 
 .header {
     font-family: 'League Spartan', sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     color: #1D1D1B;
     line-height: 130%;
     font-weight: 500;
@@ -22,6 +23,7 @@
 }
 
 .link {
+    position: relative;
     display: block;
     width: 100%;
     cursor: pointer;
@@ -32,8 +34,25 @@
 }
 
 .image {
+    position: relative;
     display: block;
     width: 100%;
+    z-index: 2;
+    opacity: 1;
+    transition: .6s;
+}
+
+.image:last-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.link:hover .image:first-child {
+    opacity: 0;
 }
 
 .last {
@@ -73,17 +92,21 @@
 
 .text {
     color: #1D1D1B;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 130%;
+    font-weight: 400;
+}
+
+.bold {
     font-weight: 500;
 }
 
 .link {
     display: block;
     color: #1D1D1B;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 130%;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
 
 }
@@ -136,5 +159,6 @@
 
     .contactTiles {
         margin-top: 150px;
+        padding-bottom: 40px;
     }
   }

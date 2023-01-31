@@ -22,47 +22,72 @@
     position: absolute;
     bottom: 5%;
     right: 5%;
-    transform: scale(1.15);
 }
 
 .babycare-vege {
     position: absolute;
     top:5%;
 	left:42%;
-    transform: scale(1.15);
 }
 .babycare-apple {
     position: absolute;
     left:40px;
 	top: 35%;
-    transform: scale(1.2);
 }
 
 .preschool-wheat {
     position: absolute;
-    bottom: 1%;
-    right: 1%;
-    transform: scale(1.1);
+    bottom: 5%;
+    right: 5%;
+
 }
 
 .preschool-vege {
     position: absolute;
     top:2%;
 	left:42%;
-    transform: scale(1.1);
+
 }
 .preschool-apple {
     position: absolute;
     left:45%;
 	bottom: 10%;
-    transform: scale(1.2);
+
 }
 
-@media (max-width: 1550px) {
-    .tile {
-        width: 440px;
+@media (max-width: 1600px) {
+    .text {
+        font-size: 16px;
+    }
+    .babycare-vege {
+        transform: scale(0.85);
+        top: 3%
+    }
+    .babycare-apple{
+        top: 32%
+    }
+    .preschool-wheat {
+        transform: scale(0.8);
+        bottom: -5%;
+        right: 1%;
+    }
+    .preschool-vege {
+        transform: scale(0.8);
+        top: 0
+    }
+    .preschool-apple {
+        transform: scale(0.8);
+        bottom: 5%;
     }
   }
+
+  @media (max-width: 1200px) {
+    .tile {
+        width: 380px;
+    }
+  }
+
+
 
 
 
@@ -73,7 +98,7 @@
         right: 2%;
     }
     .babycare-vege {
-        top: -15%;
+        top: 0;
         left: 3%;
         transform: scale(0.9);
     }
@@ -100,9 +125,7 @@
         transform: scale(0.8);
     }
 
-    .text {
-        font-size: 19px;
-    }
+ 
   } 
 
 

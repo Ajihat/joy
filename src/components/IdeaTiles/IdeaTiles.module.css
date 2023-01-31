@@ -1,13 +1,17 @@
 .tiles {
     padding: 0 5%;
-    margin-top: 200px
+    margin-top: 150px
 }
 
 .row {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 2%;
+    gap: 2%
+}
+.row:last-child {
     align-items: center;
-    margin-bottom: 45px;
 }
 
 .box {
@@ -16,14 +20,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 546px;
+
+    width: 32%;
     aspect-ratio: 546/600;
-    padding: 40px 40px 20px 40px;
+    padding: 40px
 }
 
 .image {
-    width: calc(100% - 45px - 546px);
-    height: 600px;
+
+    width: 66%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +54,8 @@
 
 .singleImg {
     display: block;
-    width: 546px;
+    width: 32%;
+    aspect-ratio: 546/600;
 
 }
 
@@ -58,80 +64,77 @@
     width: 100%;
     font-family: 'League Spartan', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     text-decoration: none;
     line-height: 130%;
-    max-width: 270px;
+    max-width: 190px;
 }
 
 .link:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 1600px) {
+    .text {
+        font-size: 19px;
+    }
+}
 
-@media (max-width: 1919px) {
+
+@media (max-width: 1400px) {
+    .text {
+        font-size: 16px;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+@media (max-width: 1250px) {
+    .box {
+        width: 355px;
+    }
     .singleImg {
         display: none;
     }
     .boxBottom {
-        width: calc((100% / 2) - 45px / 2)
+        width: 49%;
     }
 }
 
 
 @media (max-width: 1000px) {
-    .tiles {
-        margin-top: 40px;
-    }
-    .singleImg {
-        display: block;
-        width: 100%;
-        margin-bottom: 45px;
-    }
     .row {
         flex-wrap: wrap;
+        margin-bottom: 25px;
     }
-
     .box {
         width: 100%;
         order: 2;
-        aspect-ratio: auto;
-        padding: 40px 25px 150px 25px;
-
-
+        aspect-ratio: unset;
+        padding: 40px 25px 150px 25px
     }
-
-    .boxBottom:first-of-type {
-        padding: 150px 25px 40px 25px;
-        margin-bottom: 45px;
-    }
-
-    .image {
+    .image, .singleImg {
+        display: block;
         width: 100%;
-        aspect-ratio: 375/ 400;
-        height: auto;
+        aspect-ratio: 375/400;
         order: 1;
-        margin-bottom: 45px
+        margin-bottom: 25px;
     }
-
-    .link {
-        font-size: 35px;
-        max-width: 235px;
+    .boxBottom:first-child {
+        padding: 150px 25px 40px 25px;
+        margin-bottom: 25px;
     }
+    
 }
 
 @media (max-width: 550px) {
-    .row {
-        margin-bottom: 25px;
-    }
-    .image {
-        margin-bottom: 25px;
-    }
-    .boxBottom:first-of-type {
-        margin-bottom: 25px;
-    }
-    .singleImg {
-        margin-bottom: 25px;
+    .tiles {
+        margin-top: 50px;
     }
 }
+
+

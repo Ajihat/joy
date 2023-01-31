@@ -10,13 +10,13 @@
 
 .box {
     position: absolute;
-    padding: 30px 40px;
-    max-width: 350px;
+    padding: 20px 30px;
+    max-width: 270px;
 }
 
 .text {
     color: #1D1D1B;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 120%;
 }
@@ -25,9 +25,6 @@
 @media (max-width: 1024px) {
     .text {
         font-size: 28px;
-    }
-    .box {
-        padding: 25px 35px
     }
 }
 

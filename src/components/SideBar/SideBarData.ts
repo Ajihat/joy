@@ -49,7 +49,7 @@ export const babycareLinks = [
 	{
 		id: 10,
 		title: 'nasze przedszkole',
-		href: appRoutes.babycare,
+		href: appRoutes.preschool,
 	},
 ];
 
@@ -113,6 +113,6 @@ export const preschoolLinks = [
 	{
 		id: 12,
 		title: 'nasz żłobek',
-		href: appRoutes.preschool,
+		href: appRoutes.babycare,
 	},
 ];

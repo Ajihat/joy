@@ -1,15 +1,16 @@
 .image {
     display: block;
-    height: 600px;
-    width: calc(100% - 2 * 45px - 2 * 546px);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    width: 32%;
+
+}
+
+.img {
+    display: block;
+    width: 100%;
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1350px) {
     .image {
         display: none;
     }
