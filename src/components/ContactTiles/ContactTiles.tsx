@@ -27,8 +27,22 @@ export const ContactTiles = ({
 								borderRadius: isRound ? '25px' : '0px',
 							}}
 						>
-							<img className={styles.image} src={image1} alt='placówka-Wilanów' />
-							<img className={styles.image} src={image3} alt='placówka-Wilanów' />
+							<img
+								className={styles.image}
+								src={image1}
+								alt='placówka-Wilanów'
+								style={{
+									borderRadius: isRound ? '25px' : '0px',
+								}}
+							/>
+							<img
+								className={styles.image}
+								src={image3}
+								alt='placówka-Wilanów'
+								style={{
+									borderRadius: isRound ? '25px' : '0px',
+								}}
+							/>
 						</a>
 						<div className={styles.box}>
 							<p className={styles.text}>
@@ -52,8 +66,22 @@ export const ContactTiles = ({
 								borderRadius: isRound ? '25px' : '0px',
 							}}
 						>
-							<img className={styles.image} src={image2} alt='placówka-Wawer' />
-							<img className={styles.image} src={image4} alt='placówka-Wilanów' />
+							<img
+								className={styles.image}
+								src={image2}
+								alt='placówka-Wawer'
+								style={{
+									borderRadius: isRound ? '25px' : '0px',
+								}}
+							/>
+							<img
+								className={styles.image}
+								src={image4}
+								alt='placówka-Wilanów'
+								style={{
+									borderRadius: isRound ? '25px' : '0px',
+								}}
+							/>
 						</a>
 						<div className={styles.box}>
 							<p className={styles.text}>
