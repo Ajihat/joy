@@ -1,9 +1,11 @@
 .link {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
     text-decoration: none;
+    z-index: 1;
 }
 
 .circle {
