@@ -7,18 +7,18 @@ export const IdeaMotto = ({ text, circleColor }: IdeaMottoProps) => {
 		<div className={styles.motto}>
 			<p className={styles.text}>
 				{text}
-				<div
+				<span
 					className={styles.circle}
 					style={{
 						backgroundColor: circleColor,
 					}}
-				></div>
-				<div
+				></span>
+				<span
 					className={styles.circle}
 					style={{
 						backgroundColor: circleColor,
 					}}
-				></div>
+				></span>
 			</p>
 		</div>
 	);

@@ -18,7 +18,7 @@ export const Home = () => {
 				<title>Joy | Preschool & Babycare</title>
 				<meta
 					name='description'
-					content='Witamy w Joy Preschool & Babycare. Jesteśmy miejscem z 15-letnim doświadczeniem w edukacji dzieci w wieku przedszkolnym i żłobkowym.'
+					content='Witamy w Joy Preschool & Babycare. To przyjazne miejsce dla Twojego dziecka.'
 				/>
 			</Helmet>
 			<div className={styles.logoHolder}>
