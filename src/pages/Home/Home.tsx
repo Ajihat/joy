@@ -28,10 +28,10 @@ export const Home = () => {
 				<meta property='og:type' content='website' />
 				<meta
 					property='og:image'
-					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+					content='https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png'
 				/>
-				<meta property='og:image:width' content='390'></meta>
-				<meta property='og:image:height' content='215'></meta>
+				<meta property='og:image:width' content='390' />
+				<meta property='og:image:height' content='215' />
 			</Helmet>
 			<div className={styles.logoHolder}>
 				<HomeLogo />
