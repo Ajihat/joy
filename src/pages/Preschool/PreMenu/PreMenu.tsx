@@ -33,6 +33,16 @@ export const PreMenu = () => {
 					name='description'
 					content='W Joy Preschool żywienie dzieci w zgodzie z naturą oznacza powrót do tradycyjnego żywienia, z tą różnicą, że teraz, zgodnie z obecną wiedzą dietetyczną, promuje się produkty mniej tłuste i ogólnie "lżejsze".'
 				/>
+				<meta property='og:title' content='Joy | Preschool | Jadłospis' />
+				<meta
+					property='og:description'
+					content='W Joy Preschool żywienie dzieci w zgodzie z naturą oznacza powrót do tradycyjnego żywienia, z tą różnicą, że teraz, zgodnie z obecną wiedzą dietetyczną, promuje się produkty mniej tłuste i ogólnie "lżejsze".'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 			<Header
 				text='żywimy dzieci w zgodzie z naturą'

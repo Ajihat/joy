@@ -23,6 +23,16 @@ export const PreIdea = () => {
 					name='description'
 					content='W Joy Preschool naszą ideą jest niestandardowe podejście do edukacji w którym stawiamy na kreatywne podejście i nieszablonowe pomysły. Tworzymy atmosferę zaufania, wzrastania i rozwoju w poczucie bezpieczeństwa i akceptacji. Ważna jest dla nas bliskość i szczerość relacji.'
 				/>
+				<meta property='og:title' content='Joy | Preschool | Idea' />
+				<meta
+					property='og:description'
+					content='W Joy Preschool naszą ideą jest niestandardowe podejście do edukacji w którym stawiamy na kreatywne podejście i nieszablonowe pomysły. Tworzymy atmosferę zaufania, wzrastania i rozwoju w poczucie bezpieczeństwa i akceptacji. Ważna jest dla nas bliskość i szczerość relacji.'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 			<PageWrapper>
 				<IdeaMotto

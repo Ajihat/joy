@@ -23,6 +23,16 @@ export const Idea = () => {
 					name='description'
 					content='W Joy Babycare misją jest stworzenie dzieciom przestrzeni do swobodnego tworzenia, by doświadczając stawały się otwartymi i samodzielnymi ludźmi. Zarażamy maluchy naszym zamiłowaniem do muzyki, która towarzyszy nam w każdym momencie dnia i wspiera nas w budowaniu z dziećmi bliskich więzi. Wykorzystujemy otaczającą nas naturę, by jak najpełniej wykorzystać potrzebę ruchu i ciekawość poznawczą dziecka.'
 				/>
+				<meta property='og:title' content='Joy | Babycare | Idea' />
+				<meta
+					property='og:description'
+					content='W Joy Babycare misją jest stworzenie dzieciom przestrzeni do swobodnego tworzenia, by doświadczając stawały się otwartymi i samodzielnymi ludźmi. Zarażamy maluchy naszym zamiłowaniem do muzyki, która towarzyszy nam w każdym momencie dnia i wspiera nas w budowaniu z dziećmi bliskich więzi. Wykorzystujemy otaczającą nas naturę, by jak najpełniej wykorzystać potrzebę ruchu i ciekawość poznawczą dziecka.'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 			<PageWrapper>
 				<IdeaMotto

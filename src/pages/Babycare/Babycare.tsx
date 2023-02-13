@@ -44,6 +44,16 @@ export const Babycare = () => {
 					name='description'
 					content='Witamy w Joy Babycare. Już od 15 lat dbamy o to, aby nasze miejsce jak najlepiej spełniało swoją ważną rolę. Nasi najmłodsi podopieczni i ich rodzice czują się u nas bezpiecznie, swobodnie i przyjemnie, jak w domu.'
 				/>
+				<meta property='og:title' content='Joy | Babycare' />
+				<meta
+					property='og:description'
+					content='Witamy w Joy Babycare. Już od 15 lat dbamy o to, aby nasze miejsce jak najlepiej spełniało swoją ważną rolę. Nasi najmłodsi podopieczni i ich rodzice czują się u nas bezpiecznie, swobodnie i przyjemnie, jak w domu.'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 			<MainSlider data={mainSliderData} isRound={false} />
 			<PageWrapper>

@@ -27,6 +27,16 @@ export const PreTeam = () => {
 					name='description'
 					content='W Joy Preschool uważamy, że dzieci to osoby, które zasługują na największą uwagę. Pod dobrą opieką troskliwych nauczycieli będą się doskonale rozwijać, dzięki czemu nie tylko dadzą pociechę rodzicom, ale także wiele osiągną w późniejszym życiu.'
 				/>
+				<meta property='og:title' content='Joy | Preschool | Zespół' />
+				<meta
+					property='og:description'
+					content='W Joy Preschool uważamy, że dzieci to osoby, które zasługują na największą uwagę. Pod dobrą opieką troskliwych nauczycieli będą się doskonale rozwijać, dzięki czemu nie tylko dadzą pociechę rodzicom, ale także wiele osiągną w późniejszym życiu.'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 			<Header
 				image={headerImgDesktop}

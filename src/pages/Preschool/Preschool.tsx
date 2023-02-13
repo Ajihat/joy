@@ -37,6 +37,16 @@ export const Preschool = () => {
 					name='description'
 					content='Witamy w Joy Preschool. Jesteśmy miejscem z 15-letnim doświadczeniem w edukacji i opiece nad dziećmi w wieku przedszkolnym. Naszą filozofię kreowaliśmy pod nazwą KidsCollege i tak pewnie zapamięta nas wielu absolwentów. Jesteśmy kameralnym miejscem, gdzie panuje przyjazna i troskliwa atmosfera.'
 				/>
+				<meta property='og:title' content='Joy | Preschool' />
+				<meta
+					property='og:description'
+					content='Witamy w Joy Preschool. Jesteśmy miejscem z 15-letnim doświadczeniem w edukacji i opiece nad dziećmi w wieku przedszkolnym. Naszą filozofię kreowaliśmy pod nazwą KidsCollege i tak pewnie zapamięta nas wielu absolwentów. Jesteśmy kameralnym miejscem, gdzie panuje przyjazna i troskliwa atmosfera.'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 
 			<MainSlider data={mainSliderData} isRound={true} />

@@ -51,7 +51,17 @@ export const PreOurmethods = () => {
 				<title>Joy | Preschool | Nasze metody</title>
 				<meta
 					name='description'
-					content='Naszą ideą jest niestandardowe podejście do edukacji w którym stawiamy na kreatywne podejście i nieszablonowe pomysły. Wykorzystujemy do tego prowokacje edukacyjne, , zarażamy zamiłowaniem do muzyki i pasją do literatury, wykorzystujemy otaczającą nas naturę, by jak najpełniej wykorzystać potrzebę ruchu i ciekawość poznawczą dziecka. Całości dopełnia codzienny kontakt z wielokulturowym zespołem edukatorów i zanurzeniem w języku angielskim.'
+					content='Naszą ideą jest niestandardowe podejście do edukacji w którym stawiamy na kreatywne podejście i nieszablonowe pomysły. Wykorzystujemy do tego prowokacje edukacyjne, zarażamy zamiłowaniem do muzyki i pasją do literatury, wykorzystujemy otaczającą nas naturę, by jak najpełniej wykorzystać potrzebę ruchu i ciekawość poznawczą dziecka. Całości dopełnia codzienny kontakt z wielokulturowym zespołem edukatorów i zanurzeniem w języku angielskim.'
+				/>
+				<meta property='og:title' content='Joy | Preschool | Nasze metody' />
+				<meta
+					property='og:description'
+					content='Naszą ideą jest niestandardowe podejście do edukacji w którym stawiamy na kreatywne podejście i nieszablonowe pomysły. Wykorzystujemy do tego prowokacje edukacyjne, zarażamy zamiłowaniem do muzyki i pasją do literatury, wykorzystujemy otaczającą nas naturę, by jak najpełniej wykorzystać potrzebę ruchu i ciekawość poznawczą dziecka. Całości dopełnia codzienny kontakt z wielokulturowym zespołem edukatorów i zanurzeniem w języku angielskim.'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
 				/>
 			</Helmet>
 

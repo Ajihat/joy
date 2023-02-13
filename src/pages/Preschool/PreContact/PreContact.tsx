@@ -29,6 +29,22 @@ export const PreContact = () => {
 					04-542 Warszawa
 					Marysin Wawerski'
 				/>
+				<meta property='og:title' content='Joy | Preschool | Kontakt' />
+				<meta
+					property='og:description'
+					content='Zapraszamy do odwiedzenia naszych placówek Joy Preschool: Wilanów
+					ul. Jara 12a
+					02-998 Warszawa
+					Wilanów-Zawady; Wawer
+					ul. Akwarelowa 22
+					04-542 Warszawa
+					Marysin Wawerski'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 			<PageWrapper>
 				<ContactTiles

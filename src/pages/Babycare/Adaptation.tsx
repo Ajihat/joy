@@ -23,6 +23,16 @@ export const Adaptation = () => {
 					name='description'
 					content='W Joy Babycare poprzez czułą adaptację wspólnie z Rodzicem wprowadzamy maluszki w nasz wyjątkowy, żłobkowy świat. Na co dzień dużo przytulamy, bujamy, kołyszemy, bierzemy na ręce, na kolana, dużo czytamy. Są to naturalne i najwłaściwsze oznaki naszej bliskości i troski, które dają dzieciom poczucie bezpieczeństwa.'
 				/>
+				<meta property='og:title' content='Joy | Babycare | Adaptacja' />
+				<meta
+					property='og:description'
+					content='W Joy Babycare poprzez czułą adaptację wspólnie z Rodzicem wprowadzamy maluszki w nasz wyjątkowy, żłobkowy świat. Na co dzień dużo przytulamy, bujamy, kołyszemy, bierzemy na ręce, na kolana, dużo czytamy. Są to naturalne i najwłaściwsze oznaki naszej bliskości i troski, które dają dzieciom poczucie bezpieczeństwa.'
+				/>
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 			<Adaptationtiles />
 			<LogoHolder>
