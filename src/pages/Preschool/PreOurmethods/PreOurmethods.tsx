@@ -80,6 +80,7 @@ export const PreOurmethods = () => {
 						bottom='5%'
 						right='initial'
 						id='pracownia-muzyczna'
+						paddingBottom='35px'
 					/>
 					<MethodsTile
 						image={img2}
@@ -96,6 +97,7 @@ export const PreOurmethods = () => {
 						bottom='initial'
 						right='5%'
 						id='pracownia-ruchowa'
+						paddingBottom='35px'
 					/>
 					<MethodsTile
 						image={img3}
@@ -112,6 +114,7 @@ export const PreOurmethods = () => {
 						bottom='initial'
 						right='initial'
 						id='pracownia-manualna'
+						paddingBottom='35px'
 					/>
 					<MethodsTile
 						image={img4}
@@ -128,6 +131,7 @@ export const PreOurmethods = () => {
 						bottom='initial'
 						right='initial'
 						id='prowokacje-edukacyjne'
+						paddingBottom='35px'
 					/>
 					<MethodsTile
 						image={img5}
@@ -144,6 +148,7 @@ export const PreOurmethods = () => {
 						bottom='initial'
 						right='initial'
 						id='pracownia-literacka'
+						paddingBottom='35px'
 					/>
 					<MethodsTile
 						image={img6}
@@ -160,6 +165,7 @@ export const PreOurmethods = () => {
 						bottom='initial'
 						right='5%'
 						id='pracownia-relacyjna'
+						paddingBottom='35px'
 					/>
 				</Holder>
 				<English />

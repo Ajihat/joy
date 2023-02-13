@@ -51,6 +51,7 @@ export const Team = () => {
 						right='40px'
 						isRound={false}
 						textColor='#1D1D1B'
+						paddingBottom='150px'
 					/>
 				</Holder>
 				<Footer color='#A9CAE5' />

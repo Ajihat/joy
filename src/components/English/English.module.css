@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
     .section {
         flex-wrap: wrap;
         padding: max(2.5%, 35px)
@@ -74,6 +74,13 @@
     .inner:first-child {
         padding: 0;
         margin-bottom: 45px;
+    }
+    .text {
+        font-size: 19px;
+    }
+    .header {
+        font-size: 25px;
+        margin-bottom: 30px;
     }
   }
 

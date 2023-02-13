@@ -21,6 +21,7 @@ export const MethodsTile = ({
 	right,
 	isRound,
 	textColor,
+	paddingBottom,
 }: MethodsTileProps) => {
 	const [currentImage, setCurrentImage] = useState(0);
 
@@ -44,7 +45,7 @@ export const MethodsTile = ({
 				style={{
 					backgroundColor: color,
 					borderRadius: isRound ? '25px' : '0',
-					paddingBottom: isRound ? '35px' : '100px',
+					paddingBottom,
 				}}
 			>
 				{header && (

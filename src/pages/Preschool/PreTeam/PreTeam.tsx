@@ -52,6 +52,7 @@ export const PreTeam = () => {
 						isRound={true}
 						textColor='#1D1D1B'
 						header={null}
+						paddingBottom='150px'
 					/>
 				</Holder>
 				<Burger site='preschool' />

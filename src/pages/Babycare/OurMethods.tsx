@@ -73,6 +73,7 @@ export const OurMethods = () => {
 						bottom='5%'
 						isRound={false}
 						textColor='#1D1D1B'
+						paddingBottom='150px'
 					/>
 					<MethodsTile
 						header='natura i ruch'
@@ -89,6 +90,7 @@ export const OurMethods = () => {
 						bottom='5%'
 						isRound={false}
 						textColor='#1D1D1B'
+						paddingBottom='150px'
 					/>
 					<MethodsTile
 						header='bliskie więzi'
@@ -105,6 +107,7 @@ export const OurMethods = () => {
 						bottom='5%'
 						isRound={false}
 						textColor='#1D1D1B'
+						paddingBottom='150px'
 					/>
 					<MethodsTile
 						header='swoboda tworzenia'
@@ -121,6 +124,7 @@ export const OurMethods = () => {
 						bottom='initial'
 						isRound={false}
 						textColor='#1D1D1B'
+						paddingBottom='150px'
 					/>
 				</Holder>
 				<Footer color='#A9CAE5' />

@@ -13,4 +13,5 @@ export interface MethodsTileProps {
 	right: string;
 	isRound: boolean;
 	textColor: string;
+	paddingBottom: string;
 }
