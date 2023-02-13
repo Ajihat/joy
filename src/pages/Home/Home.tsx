@@ -25,6 +25,12 @@ export const Home = () => {
 					property='og:description'
 					content='Witamy w Joy Preschool & Babycare. To przyjazne miejsce dla Twojego dziecka.'
 				/>
+				<meta property='og:url' content={`${appRoutes.homePage}`} />
+				<meta property='og:type' content='website' />
+				<meta
+					property='og:image'
+					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
+				/>
 			</Helmet>
 			<div className={styles.logoHolder}>
 				<HomeLogo />
