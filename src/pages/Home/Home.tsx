@@ -26,10 +26,7 @@ export const Home = () => {
 					content='Witamy w Joy Preschool & Babycare. To przyjazne miejsce dla Twojego dziecka.'
 				/>
 				<meta property='og:type' content='website' />
-				<meta
-					property='og:image'
-					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
-				/>
+				<meta property='og:image' content='tutaj url' />
 				<meta property='og:image:width' content='390' />
 				<meta property='og:image:height' content='215' />
 			</Helmet>
