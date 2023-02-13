@@ -8,6 +8,8 @@ import { MethodsTile } from 'components/MethodsTile/MethodsTile';
 import { Burger } from 'components/Burger/Burger';
 import { SideBar } from 'components/SideBar/SideBar';
 import { Logo } from 'components/Logo/Logo';
+import { PageWrapper } from 'components/PageWrapper/PageWrapper';
+import { LogoHolder } from 'components/LogoHolder/LogoHolder';
 
 import headerImg from 'assets/babycare/Team/babycare_team_header.jpg';
 import headerImgMobile from 'assets/babycare/Team/babycare_team_header_mobile.jpg';
@@ -33,27 +35,31 @@ export const Team = () => {
 				imageMobile={headerImgMobile}
 				isRound={false}
 			/>
-			<Holder>
-				<MethodsTile
-					image={teamData.images}
-					header={null}
-					texts={teamData.texts}
-					color='#E6CCCA'
-					isImgLeft={true}
-					accentImg={pattern}
-					accentImgPosition='text'
-					top='initial'
-					left='initial'
-					bottom='40px'
-					right='40px'
-					isRound={false}
-					textColor='#1D1D1B'
-				/>
-			</Holder>
-			<Footer color='#A9CAE5' />
-			<Burger site='babycare' />
-			<SideBar site='babycare' />
-			<Logo site='babycare' />
+			<PageWrapper>
+				<Holder>
+					<MethodsTile
+						image={teamData.images}
+						header={null}
+						texts={teamData.texts}
+						color='#E6CCCA'
+						isImgLeft={true}
+						accentImg={pattern}
+						accentImgPosition='text'
+						top='initial'
+						left='initial'
+						bottom='40px'
+						right='40px'
+						isRound={false}
+						textColor='#1D1D1B'
+					/>
+				</Holder>
+				<Footer color='#A9CAE5' />
+				<Burger site='babycare' />
+				<SideBar site='babycare' />
+				<LogoHolder>
+					<Logo site='babycare' />
+				</LogoHolder>
+			</PageWrapper>
 		</motion.div>
 	);
 };

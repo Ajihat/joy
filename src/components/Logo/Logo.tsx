@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 import styles from './Logo.module.css';
 
@@ -17,11 +17,16 @@ import { LogoProps } from './Logo.types';
 
 export const Logo = ({ site }: LogoProps) => {
 	const navigate = useNavigate();
+	const { pathname } = useLocation();
 	const scrollingDirection = useCheckScrollDirection();
 	const logoSrc = site === 'preschool' ? preschool : babycare;
 	const link = site === 'preschool' ? appRoutes.preschool : appRoutes.babycare;
 
 	const handleClick = () => {
+		if (pathname === link) {
+			window.scrollTo(0, 0);
+			return;
+		}
 		navigate(link);
 	};
 	return (

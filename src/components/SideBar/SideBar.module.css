@@ -20,7 +20,7 @@
 
 .listitem {
     color: white;
-    padding: 12px 0
+    padding: 14px 0
 }
 
 .listitem:last-child {
@@ -38,6 +38,15 @@
 .link:hover {
     color: lightgray
 }
+
+@media (max-width: 1300px) {
+    .link {
+        font-size: 24px;
+    }
+    .listitem {
+        padding: 10px 0
+    }
+  }
 
 @media (max-width: 450px) {
     .sidebar {

@@ -9,6 +9,17 @@
     transition: 1.5s;
 }
 
+.inner {
+  position: absolute;
+  top: 0;
+  left:50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+
+}
+
 
 .fade-in {
   transition: opacity 1.5s ease;
@@ -23,7 +34,6 @@
     position: absolute;
     bottom: 7%;
     left: 5%;
-    min-width: 350px;
     transition: 1s;
     
     
@@ -51,9 +61,7 @@
   .text {
     font-size: 30px;
   }
-  .box {
-    min-width: 330px;
-  }
+
 }
 
 
@@ -71,11 +79,9 @@
     padding: 15px 30px;
   }
   .text {
-    font-size: 24px;
+    font-size: 25px;
   }
   .box {
     left: 5%;
-    right: 5%;
-    min-width: unset;
   }
 }

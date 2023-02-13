@@ -23,7 +23,7 @@
 
     width: 32%;
     aspect-ratio: 546/600;
-    padding: 40px
+    padding: max(2.5%, 35px)
 }
 
 .image {
@@ -115,7 +115,7 @@
         width: 100%;
         order: 2;
         aspect-ratio: unset;
-        padding: 40px 25px 150px 25px
+        padding-bottom: 150px
     }
     .image, .singleImg {
         display: block;
@@ -125,7 +125,7 @@
         margin-bottom: 25px;
     }
     .boxBottom:first-child {
-        padding: 150px 25px 40px 25px;
+        padding-top: 150px;
         margin-bottom: 25px;
     }
     

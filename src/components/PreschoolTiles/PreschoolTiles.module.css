@@ -1,7 +1,7 @@
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
     margin-top: 2%;
     padding: 0 5%;
@@ -16,7 +16,6 @@
     width: 32%;
     aspect-ratio: 546/600;
     border-radius: 25px;
-    overflow: hidden;
     margin-bottom: 2%
 }
 
@@ -25,6 +24,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+
 }
 
 .inner {
@@ -51,6 +51,8 @@
 .image {
     display: block;
     width: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 .header {
@@ -86,6 +88,7 @@
     text-decoration: none;
     border-radius: 45px;
     transition: .3s;
+    margin-top: 15px
 }
 
 .link:hover {
@@ -103,29 +106,21 @@
     .text {
         font-size: 16px;
     }
+    .header {
+        margin-bottom: 15px
+    }
   }
 
   @media (max-width: 1650px) {
-    .text {
-        font-size: 14px;
-    }
+
     .link {
         font-size: 16px;
         padding: 10px 35px;
     }
-    .header {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-  }
-
-  @media (max-width: 1450px) {
-    .text {
-        font-size: 13px;
-    }
-    
 
   }
+
+
 
   @media (max-width: 1350px) {
     .text {
@@ -191,6 +186,7 @@
     }
     .accent {
         transform: translateY(-50%) scale(0.8);
+        right: 1%
     }
 
     

@@ -8,6 +8,8 @@ import { Logo } from 'components/Logo/Logo';
 import { Burger } from 'components/Burger/Burger';
 import { SideBar } from 'components/SideBar/SideBar';
 import { Footer } from 'components/Footer/Footer';
+import { PageWrapper } from 'components/PageWrapper/PageWrapper';
+import { LogoHolder } from 'components/LogoHolder/LogoHolder';
 
 import { teamData } from 'data/Preschool/teamData/teamData';
 
@@ -34,27 +36,31 @@ export const PreTeam = () => {
 				aligment='left'
 				isRound={true}
 			/>
-			<Holder>
-				<MethodsTile
-					image={teamData.images}
-					color='#EFC46E'
-					texts={teamData.texts}
-					isImgLeft={true}
-					accentImg={pattern}
-					accentImgPosition='text'
-					top='initial'
-					left='initial'
-					bottom='40px'
-					right='40px'
-					isRound={true}
-					textColor='#1D1D1B'
-					header={null}
-				/>
-			</Holder>
-			<Logo site='preschool' />
-			<Burger site='preschool' />
-			<SideBar site='preschool' />
-			<Footer color='#80AA6E' />
+			<PageWrapper>
+				<Holder>
+					<MethodsTile
+						image={teamData.images}
+						color='#EFC46E'
+						texts={teamData.texts}
+						isImgLeft={true}
+						accentImg={pattern}
+						accentImgPosition='text'
+						top='initial'
+						left='initial'
+						bottom='40px'
+						right='40px'
+						isRound={true}
+						textColor='#1D1D1B'
+						header={null}
+					/>
+				</Holder>
+				<Burger site='preschool' />
+				<SideBar site='preschool' />
+				<Footer color='#80AA6E' />
+				<LogoHolder>
+					<Logo site='preschool' />
+				</LogoHolder>
+			</PageWrapper>
 		</motion.div>
 	);
 };

@@ -8,6 +8,16 @@
     background-size: 100%;
 }
 
+.inner {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+}
+
 .box {
     position: absolute;
     padding: 20px 30px;
@@ -36,6 +46,18 @@
     .box {
         padding: 15px 30px;
         max-width: 325px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .text {
+        font-size: 25px;
+    }
+
+    .box {
+        padding: 15px 35px;
+        max-width: 250px;
     }
 }
 

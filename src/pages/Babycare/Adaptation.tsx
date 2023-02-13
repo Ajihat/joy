@@ -6,6 +6,7 @@ import { Logo } from 'components/Logo/Logo';
 import { Burger } from 'components/Burger/Burger';
 import { SideBar } from 'components/SideBar/SideBar';
 import { Footer } from 'components/Footer/Footer';
+import { LogoHolder } from 'components/LogoHolder/LogoHolder';
 
 export const Adaptation = () => {
 	return (
@@ -24,7 +25,10 @@ export const Adaptation = () => {
 				/>
 			</Helmet>
 			<Adaptationtiles />
-			<Logo site='babycare' />
+			<LogoHolder>
+				<Logo site='babycare' />
+			</LogoHolder>
+
 			<Burger site='babycare' />
 			<SideBar site='babycare' />
 			<Footer color='#A9CAE5' />

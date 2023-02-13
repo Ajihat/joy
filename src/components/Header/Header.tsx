@@ -39,15 +39,17 @@ export const Header = ({ image, imageMobile, text, color, aligment, isRound }: H
 				backgroundImage: `url(${activeImg})`,
 			}}
 		>
-			<div
-				className={styles.box}
-				style={{
-					backgroundColor: color,
-					...position[aligment],
-					borderRadius: isRound ? '20px' : '0',
-				}}
-			>
-				<h1 className={styles.text}>{text}</h1>
+			<div className={styles.inner}>
+				<div
+					className={styles.box}
+					style={{
+						backgroundColor: color,
+						...position[aligment],
+						borderRadius: isRound ? '20px' : '0',
+					}}
+				>
+					<h1 className={styles.text}>{text}</h1>
+				</div>
 			</div>
 		</div>
 	);

@@ -19,7 +19,8 @@
     align-items: flex-start;
     width: 546px;
     aspect-ratio: 546/600;
-    padding: 40px 40px 20px 40px;
+    padding: max(2.5%, 35px);
+    padding-bottom: 20px;
 }
 
 .image {
@@ -29,6 +30,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.right {
+    background-position: center;
 }
 
 .text {
@@ -66,11 +71,7 @@
     }
     
   }
-  @media (max-width: 900px) {
-    .box {
-        padding: 25px;
-    }
-  }
+
 
   @media (max-width: 1024px) {
     .row {
@@ -87,18 +88,17 @@
 
     .box {
         width: 100%;
-        aspect-ratio: 364/200;
         order: 2;
         margin-top: 25px;
+        aspect-ratio: unset;
+    }
+    .text {
+        margin-bottom: 50px
     }
     
   }
 
-  @media (max-width: 650px) {
-    .box {
-        aspect-ratio: 364/400;
-    }
-  }
+
 
   @media (max-width: 550px) {
     .box {

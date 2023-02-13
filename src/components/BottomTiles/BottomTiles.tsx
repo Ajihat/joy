@@ -59,7 +59,7 @@ export const BottomTiles = ({
 					</div>
 				</div>
 				<div
-					className={styles.image}
+					className={`${styles.image} ${styles.right}`}
 					style={{
 						borderRadius: isRound ? '25px' : '0',
 						backgroundImage: `url(${image2})`,

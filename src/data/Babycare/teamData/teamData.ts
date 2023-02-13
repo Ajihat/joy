@@ -1,6 +1,6 @@
-import img1 from 'assets/babycare/Team/babycare_team_img1.png';
-import img2 from 'assets/babycare/Team/babycare_team_img2.png';
-import img3 from 'assets/babycare/Team/babycare_team_img3.png';
+import img1 from 'assets/babycare/Team/babycare_team_img1.jpg';
+import img2 from 'assets/babycare/Team/babycare_team_img2.jpg';
+import img3 from 'assets/babycare/Team/babycare_team_img3.jpg';
 
 export const teamData = {
 	texts: [

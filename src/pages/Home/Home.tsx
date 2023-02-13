@@ -25,8 +25,8 @@ export const Home = () => {
 				<HomeLogo />
 			</div>
 			<div className={styles.inner}>
-				<HomeTile text='joy preschool' color='#313F29' linkUrl={appRoutes.preschool} image={preschoolImg} />
 				<HomeTile text='joy babycare' color='#416780' linkUrl={appRoutes.babycare} image={babycareImg} />
+				<HomeTile text='joy preschool' color='#313F29' linkUrl={appRoutes.preschool} image={preschoolImg} />
 			</div>
 		</motion.div>
 	);

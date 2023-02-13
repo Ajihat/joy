@@ -52,16 +52,18 @@ export const MainSlider = ({ data, isRound }: MainSliderProps) => {
 				backgroundImage: `url(${data[currentSlide].images[imageType as keyof Images]})`,
 			}}
 		>
-			<div
-				className={styles.box}
-				style={{
-					backgroundColor: data[currentSlide].color,
-					borderRadius: isRound ? '25px' : '0',
-				}}
-			>
-				<Link className={styles.link} to={data[currentSlide].href}>
-					<h1 className={styles.text}>{data[currentSlide].text}</h1>
-				</Link>
+			<div className={styles.inner}>
+				<div
+					className={styles.box}
+					style={{
+						backgroundColor: data[currentSlide].color,
+						borderRadius: isRound ? '25px' : '0',
+					}}
+				>
+					<Link className={styles.link} to={data[currentSlide].href}>
+						<h1 className={styles.text}>{data[currentSlide].text}</h1>
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

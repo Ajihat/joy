@@ -14,7 +14,7 @@
     top: 40%;
     left: 7%;
     background-color: #EFC46E;
-    padding: 40px 40px 40px 40px;
+    padding: max(2.5%, 35px);
     z-index: 5;
 }
 .boxHidden {
@@ -57,7 +57,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     position: absolute;
-    padding: 40px 40px 50px 40px;
+    padding: max(2.5%, 35px);
     top: -20%;
     right: 7%;
     width: 490px;
@@ -107,13 +107,13 @@
         }
         .boxHidden {
             display: block;
-            padding: 40px 25px;
+            padding: max(2.5%, 35px);
             background-color: #EFC46E;
         }
 
         .whiteBoxHidden {
             display: block;
-            padding: 40px 25px;
+            padding: max(2.5%, 35px);
             background-color: white;
 
         }
@@ -123,6 +123,12 @@
     @media (max-width: 800px) {
         .header {
             aspect-ratio: 1/1;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .text {
+            font-size: 30px;
         }
     }
 

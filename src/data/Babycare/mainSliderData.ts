@@ -8,6 +8,8 @@ import img2Mobile from 'assets/babycare/babycare_mainSlider_img2_mobile.jpg';
 import img3Mobile from 'assets/babycare/babycare_mainSlider_img3_mobile.jpg';
 import img4Mobile from 'assets/babycare/babycare_mainSlider_img4_mobile.jpg';
 
+import { appRoutes } from 'data/appRoutes/appRoutes';
+
 export const mainSliderData = [
 	{
 		id: 1,
@@ -16,7 +18,7 @@ export const mainSliderData = [
 			imageMobile: img1Mobile,
 		},
 		text: 'zamiłowanie do muzyki',
-		href: 'program',
+		href: appRoutes.babycare_our_methods + '#pracownia-muzyczna',
 		color: '#EFC46E',
 	},
 	{
@@ -26,7 +28,7 @@ export const mainSliderData = [
 			imageMobile: img2Mobile,
 		},
 		text: 'natura i ruch',
-		href: 'program',
+		href: appRoutes.babycare_our_methods + '#pracownia-ruchowa',
 		color: '#80AA6E',
 	},
 	{
@@ -36,7 +38,7 @@ export const mainSliderData = [
 			imageMobile: img3Mobile,
 		},
 		text: 'bliskie więzi',
-		href: 'program',
+		href: appRoutes.babycare_our_methods + '#pracownia-relacyjna',
 		color: '#E6CCCA',
 	},
 	{
@@ -46,7 +48,7 @@ export const mainSliderData = [
 			imageMobile: img4Mobile,
 		},
 		text: 'swoboda tworzenia',
-		href: 'program',
+		href: appRoutes.babycare_our_methods + '#pracownia-manualna',
 		color: '#A9CAE5',
 	},
 ];

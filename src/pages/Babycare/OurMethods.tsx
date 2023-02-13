@@ -10,6 +10,8 @@ import { Footer } from 'components/Footer/Footer';
 import { Burger } from 'components/Burger/Burger';
 import { SideBar } from 'components/SideBar/SideBar';
 import { Logo } from 'components/Logo/Logo';
+import { PageWrapper } from 'components/PageWrapper/PageWrapper';
+import { LogoHolder } from 'components/LogoHolder/LogoHolder';
 
 import headerImg from 'assets/babycare/OurMethods/babycare_ourmethods_header.jpg';
 import headerImgMobile from 'assets/babycare/OurMethods/babycare_ourmethods_header_mobile.jpg';
@@ -54,76 +56,80 @@ export const OurMethods = () => {
 				aligment='right'
 				isRound={false}
 			/>
-			<Holder>
-				<MethodsTile
-					header='zamiłowanie do muzyki'
-					image={img1}
-					color='#EFC46E'
-					texts={ourMethodsData.zamilowanie_do_muzyki}
-					isImgLeft={false}
-					id='pracownia-muzyczna'
-					accentImg={music}
-					accentImgPosition='text'
-					top='inital'
-					left='initial'
-					right='5%'
-					bottom='5%'
-					isRound={false}
-					textColor='#1D1D1B'
-				/>
-				<MethodsTile
-					header='natura i ruch'
-					image={img2}
-					color='#80AA6E'
-					texts={ourMethodsData.natura_i_ruch}
-					isImgLeft={true}
-					id='pracownia-ruchowa'
-					accentImg={flower}
-					accentImgPosition='text'
-					top='inital'
-					left='initial'
-					right='5%'
-					bottom='5%'
-					isRound={false}
-					textColor='#1D1D1B'
-				/>
-				<MethodsTile
-					header='bliskie więzi'
-					image={img3}
-					color='#E6CCCA'
-					texts={ourMethodsData.bliskie_wiezi}
-					isImgLeft={false}
-					id='pracownia-relacyjna'
-					accentImg={thread}
-					accentImgPosition='text'
-					top='inital'
-					left='initial'
-					right='5%'
-					bottom='5%'
-					isRound={false}
-					textColor='#1D1D1B'
-				/>
-				<MethodsTile
-					header='swoboda tworzenia'
-					image={img4}
-					color='#A9CAE5'
-					texts={ourMethodsData.swoboda_tworzenia}
-					isImgLeft={true}
-					id='pracownia-manualna'
-					accentImg={conffeti}
-					accentImgPosition='text'
-					top='3%'
-					left='initial'
-					right='5%'
-					bottom='initial'
-					isRound={false}
-					textColor='#1D1D1B'
-				/>
-			</Holder>
-			<Footer color='#A9CAE5' />
-			<Burger site='babycare' />
-			<SideBar site='babycare' />
-			<Logo site='babycare' />
+			<PageWrapper>
+				<Holder>
+					<MethodsTile
+						header='zamiłowanie do muzyki'
+						image={img1}
+						color='#EFC46E'
+						texts={ourMethodsData.zamilowanie_do_muzyki}
+						isImgLeft={false}
+						id='pracownia-muzyczna'
+						accentImg={music}
+						accentImgPosition='text'
+						top='inital'
+						left='initial'
+						right='5%'
+						bottom='5%'
+						isRound={false}
+						textColor='#1D1D1B'
+					/>
+					<MethodsTile
+						header='natura i ruch'
+						image={img2}
+						color='#80AA6E'
+						texts={ourMethodsData.natura_i_ruch}
+						isImgLeft={true}
+						id='pracownia-ruchowa'
+						accentImg={flower}
+						accentImgPosition='text'
+						top='inital'
+						left='initial'
+						right='5%'
+						bottom='5%'
+						isRound={false}
+						textColor='#1D1D1B'
+					/>
+					<MethodsTile
+						header='bliskie więzi'
+						image={img3}
+						color='#E6CCCA'
+						texts={ourMethodsData.bliskie_wiezi}
+						isImgLeft={false}
+						id='pracownia-relacyjna'
+						accentImg={thread}
+						accentImgPosition='text'
+						top='inital'
+						left='initial'
+						right='5%'
+						bottom='5%'
+						isRound={false}
+						textColor='#1D1D1B'
+					/>
+					<MethodsTile
+						header='swoboda tworzenia'
+						image={img4}
+						color='#A9CAE5'
+						texts={ourMethodsData.swoboda_tworzenia}
+						isImgLeft={true}
+						id='pracownia-manualna'
+						accentImg={conffeti}
+						accentImgPosition='text'
+						top='3%'
+						left='initial'
+						right='5%'
+						bottom='initial'
+						isRound={false}
+						textColor='#1D1D1B'
+					/>
+				</Holder>
+				<Footer color='#A9CAE5' />
+				<Burger site='babycare' />
+				<SideBar site='babycare' />
+				<LogoHolder>
+					<Logo site='babycare' />
+				</LogoHolder>
+			</PageWrapper>
 		</motion.div>
 	);
 };

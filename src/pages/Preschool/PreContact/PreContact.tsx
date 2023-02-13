@@ -5,6 +5,8 @@ import { ContactTiles } from 'components/ContactTiles/ContactTiles';
 import { Burger } from 'components/Burger/Burger';
 import { SideBar } from 'components/SideBar/SideBar';
 import { Logo } from 'components/Logo/Logo';
+import { LogoHolder } from 'components/LogoHolder/LogoHolder';
+import { PageWrapper } from 'components/PageWrapper/PageWrapper';
 
 import img1 from 'assets/preschool/PreContact/contact_preschool_img1.jpg';
 import img2 from 'assets/preschool/PreContact/contact_preschool_img2.jpg';
@@ -28,19 +30,23 @@ export const PreContact = () => {
 					Marysin Wawerski'
 				/>
 			</Helmet>
-			<ContactTiles
-				image1={img1}
-				image2={img2}
-				image3={img3}
-				image4={img4}
-				color='#D5DCD0'
-				logo={preschoolLogo}
-				isRound={true}
-				circleColor='#80AA6E'
-			/>
-			<Burger site='preschool' />
-			<SideBar site='preschool' />
-			<Logo site='preschool' />
+			<PageWrapper>
+				<ContactTiles
+					image1={img1}
+					image2={img2}
+					image3={img3}
+					image4={img4}
+					color='#D5DCD0'
+					logo={preschoolLogo}
+					isRound={true}
+					circleColor='#80AA6E'
+				/>
+				<Burger site='preschool' />
+				<SideBar site='preschool' />
+				<LogoHolder>
+					<Logo site='preschool' />
+				</LogoHolder>
+			</PageWrapper>
 		</motion.div>
 	);
 };

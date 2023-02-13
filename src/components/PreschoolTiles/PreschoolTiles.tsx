@@ -13,6 +13,7 @@ import tileImg8 from 'assets/preschool/preschool_tile8.jpg';
 import tileImg9 from 'assets/preschool/preschool_tile9.jpg';
 import tileImg10 from 'assets/preschool/preschool_tile10.jpg';
 import tileImg11 from 'assets/preschool/preschool_tile11.jpg';
+import tileImg12 from 'assets/preschool/preschool_tile12.jpg';
 
 import music from 'assets/decorations/music.svg';
 import flower from 'assets/decorations/flower.svg';
@@ -195,7 +196,7 @@ export const PreschoolTiles = () => {
 					backgroundColor: '#80AA6E',
 				}}
 			>
-				<img className={styles.image} src={tileImg8} alt='zanurzenie w języku angielskim' />
+				<img className={styles.image} src={tileImg12} alt='zanurzenie w języku angielskim' />
 				<div className={styles.inner}>
 					<img className={styles.accent} src={chat} alt='muzyka' />
 					<div className={styles.holder}>

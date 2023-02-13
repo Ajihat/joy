@@ -11,6 +11,8 @@ import { Footer } from 'components/Footer/Footer';
 import { Burger } from 'components/Burger/Burger';
 import { SideBar } from 'components/SideBar/SideBar';
 import { Logo } from 'components/Logo/Logo';
+import { PageWrapper } from 'components/PageWrapper/PageWrapper';
+import { LogoHolder } from 'components/LogoHolder/LogoHolder';
 
 import { ourMethodsData } from 'data/Preschool/ourMethodsData/ourMethodsData';
 
@@ -52,6 +54,7 @@ export const PreOurmethods = () => {
 					content='Naszą ideą jest niestandardowe podejście do edukacji w którym stawiamy na kreatywne podejście i nieszablonowe pomysły. Wykorzystujemy do tego prowokacje edukacyjne, , zarażamy zamiłowaniem do muzyki i pasją do literatury, wykorzystujemy otaczającą nas naturę, by jak najpełniej wykorzystać potrzebę ruchu i ciekawość poznawczą dziecka. Całości dopełnia codzienny kontakt z wielokulturowym zespołem edukatorów i zanurzeniem w języku angielskim.'
 				/>
 			</Helmet>
+
 			<Header
 				image={headerImg}
 				imageMobile={headerImgMobile}
@@ -60,109 +63,113 @@ export const PreOurmethods = () => {
 				aligment='right'
 				isRound={true}
 			/>
-			<Holder>
-				<MethodsTile
-					image={img1}
-					header='zamiłowanie do muzyki'
-					color='#8F3E35'
-					texts={ourMethodsData.zamilowanie_do_muzyki}
-					isImgLeft={false}
-					accentImg={music}
-					isRound={true}
-					textColor='white'
-					accentImgPosition='image'
-					top='initial'
-					left='5%'
-					bottom='5%'
-					right='initial'
-					id='pracownia-muzyczna'
-				/>
-				<MethodsTile
-					image={img2}
-					header='natura i ruch'
-					color='#313F29'
-					texts={ourMethodsData.natura_i_ruch}
-					isImgLeft={true}
-					accentImg={flower}
-					isRound={true}
-					textColor='white'
-					accentImgPosition='image'
-					top='5%'
-					left='initial'
-					bottom='initial'
-					right='5%'
-					id='pracownia-ruchowa'
-				/>
-				<MethodsTile
-					image={img3}
-					header='swoboda tworzenia'
-					color='#A9CAE5'
-					texts={ourMethodsData.swoboda_tworzenia}
-					isImgLeft={false}
-					accentImg={thread}
-					isRound={true}
-					textColor='white'
-					accentImgPosition='image'
-					top='5%'
-					left='5%'
-					bottom='initial'
-					right='initial'
-					id='pracownia-manualna'
-				/>
-				<MethodsTile
-					image={img4}
-					header='prowokacje edukacyjne'
-					color='#B5842B'
-					texts={ourMethodsData.prowokacje_edukacyjne}
-					isImgLeft={true}
-					accentImg={rays}
-					isRound={true}
-					textColor='white'
-					accentImgPosition='image'
-					top='5%'
-					left='5%'
-					bottom='initial'
-					right='initial'
-					id='prowokacje-edukacyjne'
-				/>
-				<MethodsTile
-					image={img5}
-					header='pasja do literatury'
-					color='#416780'
-					texts={ourMethodsData.pasja_do_literatury}
-					isImgLeft={false}
-					accentImg={book}
-					isRound={true}
-					textColor='white'
-					accentImgPosition='image'
-					top='5%'
-					left='5%'
-					bottom='initial'
-					right='initial'
-					id='pracownia-literacka'
-				/>
-				<MethodsTile
-					image={img6}
-					header='bliskie więzi'
-					color='#E79A8F'
-					texts={ourMethodsData.bliskie_wiezi}
-					isImgLeft={true}
-					accentImg={conffeti}
-					isRound={true}
-					textColor='white'
-					accentImgPosition='image'
-					top='5%'
-					left='initial'
-					bottom='initial'
-					right='5%'
-					id='pracownia-relacyjna'
-				/>
-			</Holder>
-			<English />
-			<Burger site='preschool' />
-			<SideBar site='preschool' />
-			<Logo site='preschool' />
-			<Footer color='#80AA6E' />
+			<PageWrapper>
+				<Holder>
+					<MethodsTile
+						image={img1}
+						header='zamiłowanie do muzyki'
+						color='#8F3E35'
+						texts={ourMethodsData.zamilowanie_do_muzyki}
+						isImgLeft={false}
+						accentImg={music}
+						isRound={true}
+						textColor='white'
+						accentImgPosition='image'
+						top='initial'
+						left='5%'
+						bottom='5%'
+						right='initial'
+						id='pracownia-muzyczna'
+					/>
+					<MethodsTile
+						image={img2}
+						header='natura i ruch'
+						color='#313F29'
+						texts={ourMethodsData.natura_i_ruch}
+						isImgLeft={true}
+						accentImg={flower}
+						isRound={true}
+						textColor='white'
+						accentImgPosition='image'
+						top='5%'
+						left='initial'
+						bottom='initial'
+						right='5%'
+						id='pracownia-ruchowa'
+					/>
+					<MethodsTile
+						image={img3}
+						header='swoboda tworzenia'
+						color='#A9CAE5'
+						texts={ourMethodsData.swoboda_tworzenia}
+						isImgLeft={false}
+						accentImg={thread}
+						isRound={true}
+						textColor='white'
+						accentImgPosition='image'
+						top='5%'
+						left='5%'
+						bottom='initial'
+						right='initial'
+						id='pracownia-manualna'
+					/>
+					<MethodsTile
+						image={img4}
+						header='prowokacje edukacyjne'
+						color='#B5842B'
+						texts={ourMethodsData.prowokacje_edukacyjne}
+						isImgLeft={true}
+						accentImg={rays}
+						isRound={true}
+						textColor='white'
+						accentImgPosition='image'
+						top='5%'
+						left='5%'
+						bottom='initial'
+						right='initial'
+						id='prowokacje-edukacyjne'
+					/>
+					<MethodsTile
+						image={img5}
+						header='pasja do literatury'
+						color='#416780'
+						texts={ourMethodsData.pasja_do_literatury}
+						isImgLeft={false}
+						accentImg={book}
+						isRound={true}
+						textColor='white'
+						accentImgPosition='image'
+						top='5%'
+						left='5%'
+						bottom='initial'
+						right='initial'
+						id='pracownia-literacka'
+					/>
+					<MethodsTile
+						image={img6}
+						header='bliskie więzi'
+						color='#E79A8F'
+						texts={ourMethodsData.bliskie_wiezi}
+						isImgLeft={true}
+						accentImg={conffeti}
+						isRound={true}
+						textColor='white'
+						accentImgPosition='image'
+						top='5%'
+						left='initial'
+						bottom='initial'
+						right='5%'
+						id='pracownia-relacyjna'
+					/>
+				</Holder>
+				<English />
+				<Burger site='preschool' />
+				<SideBar site='preschool' />
+				<Footer color='#80AA6E' />
+				<LogoHolder>
+					<Logo site='preschool' />
+				</LogoHolder>
+			</PageWrapper>
 		</motion.div>
 	);
 };

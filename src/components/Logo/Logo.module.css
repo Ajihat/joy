@@ -1,5 +1,5 @@
 .logo {
-    position: fixed;
+    position: relative;
     box-sizing: content-box;
     border-right: 70px solid white;
     border-left: 70px solid white;
@@ -7,11 +7,11 @@
     border-bottom: 20px solid white;
     border-bottom-left-radius:90px;
     border-bottom-right-radius: 90px;
+    left: 5%;
+    top: 0;
     width: 210px;
     height: 81px;
     background-color: white;
-    top: 0;
-    left: calc(5% - 40px);
     transition: .2s;
     z-index: 10;
     cursor: pointer;
@@ -22,7 +22,7 @@
 }
 
 .logoDown {
-    position: fixed;
+    position: relative;
     box-sizing: content-box;
     border-right: 70px solid white;
     border-left: 70px solid white;
@@ -30,11 +30,11 @@
     border-bottom: 20px solid white;
     border-bottom-left-radius:90px;
     border-bottom-right-radius: 90px;
+    left: 5%;
+    top: 0;
     width: 60px;
     height: 45px;
     background-color: white;
-    top: 0;
-    left: 5%;
     z-index: 10;
     transition: .1s;
     transition-delay: .4s;
@@ -151,7 +151,7 @@
 
   @media (max-width: 550px) {
     .logo {
-        transform: scale(0.6);
+        transform: scale(0.55);
 
     }
      
