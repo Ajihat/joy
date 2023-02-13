@@ -20,6 +20,11 @@ export const Home = () => {
 					name='description'
 					content='Witamy w Joy Preschool & Babycare. To przyjazne miejsce dla Twojego dziecka.'
 				/>
+				<meta property='og:title' content='Joy | Preschool & Babycare' />
+				<meta
+					property='og:description'
+					content='Witamy w Joy Preschool & Babycare. To przyjazne miejsce dla Twojego dziecka.'
+				/>
 			</Helmet>
 			<div className={styles.logoHolder}>
 				<HomeLogo />
