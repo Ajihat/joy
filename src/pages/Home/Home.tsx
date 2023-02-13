@@ -30,6 +30,8 @@ export const Home = () => {
 					property='og:image'
 					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
 				/>
+				<meta property='og:image:width' content='390'></meta>
+				<meta property='og:image:height' content='215'></meta>
 			</Helmet>
 			<div className={styles.logoHolder}>
 				<HomeLogo />
