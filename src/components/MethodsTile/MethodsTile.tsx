@@ -44,6 +44,7 @@ export const MethodsTile = ({
 				style={{
 					backgroundColor: color,
 					borderRadius: isRound ? '25px' : '0',
+					paddingBottom: isRound ? '35px' : '100px',
 				}}
 			>
 				{header && (
