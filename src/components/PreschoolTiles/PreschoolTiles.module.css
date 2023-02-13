@@ -111,6 +111,15 @@
     }
   }
 
+  @media (max-width: 1550px) {
+    .accent {
+        transform: translateY(-50%) scale(0.85);
+    }
+    
+
+  }
+
+
   @media (max-width: 1650px) {
 
     .link {
