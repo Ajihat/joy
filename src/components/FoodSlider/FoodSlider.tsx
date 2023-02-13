@@ -32,12 +32,18 @@ export const FoodSlider = ({ text, images, boxPosition, isRound }: FoodSliderPro
 
 	return (
 		<>
-			<div
-				className={styles.slider}
-				style={{
-					backgroundImage: `url(${images[currentSlide]})`,
-				}}
-			>
+			<div className={styles.slider}>
+				{images.map((image, index) => {
+					return (
+						<div
+							key={index}
+							className={`${styles.slide} ${currentSlide === index ? styles.slideActive : null}`}
+							style={{
+								backgroundImage: `url(${image})`,
+							}}
+						></div>
+					);
+				})}
 				<div
 					className={styles.box}
 					style={{

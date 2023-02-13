@@ -12,7 +12,7 @@ type Images = {
 	imageMobile: string;
 };
 
-const SLIDE_INTERVAL_MS = 5000;
+const SLIDE_INTERVAL_MS = 6000;
 
 export const MainSlider = ({ data, isRound }: MainSliderProps) => {
 	const [currentSlide, setCurrentSlide] = useState(0);
@@ -46,12 +46,18 @@ export const MainSlider = ({ data, isRound }: MainSliderProps) => {
 	}, [onWindowResize]);
 
 	return (
-		<div
-			className={styles.slider}
-			style={{
-				backgroundImage: `url(${data[currentSlide].images[imageType as keyof Images]})`,
-			}}
-		>
+		<div className={styles.slider}>
+			{data.map((item) => {
+				return (
+					<div
+						className={`${styles.slide} ${currentSlide === item.id - 1 ? styles.slideActive : null}`}
+						style={{
+							backgroundImage: `url(${item.images[imageType as keyof Images]})`,
+						}}
+						key={item.id}
+					></div>
+				);
+			})}
 			<div className={styles.inner}>
 				<div
 					className={styles.box}

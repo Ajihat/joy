@@ -27,8 +27,6 @@ export const Home = () => {
 				/>
 				<meta property='og:type' content='website' />
 				<meta property='og:image' content='tutaj url' />
-				<meta property='og:image:width' content='390' />
-				<meta property='og:image:height' content='215' />
 			</Helmet>
 			<div className={styles.logoHolder}>
 				<HomeLogo />

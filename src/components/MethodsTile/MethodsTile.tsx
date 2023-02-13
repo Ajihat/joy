@@ -36,7 +36,7 @@ export const MethodsTile = ({
 		});
 	}, [image]);
 
-	useInterval(nextImage, 5000);
+	useInterval(nextImage, 7000);
 
 	return (
 		<article id={id} className={styles.article}>
@@ -75,7 +75,7 @@ export const MethodsTile = ({
 			<div
 				className={styles.img}
 				style={{
-					backgroundImage: typeof image === 'string' ? `url(${image})` : `url(${image[currentImage]})`,
+					backgroundImage: typeof image === 'string' ? `url(${image})` : undefined,
 					order: isImgLeft ? '1' : '2',
 					borderRadius: isRound ? '25px' : '0',
 				}}
@@ -93,6 +93,18 @@ export const MethodsTile = ({
 						}}
 					/>
 				)}
+				{Array.isArray(image) &&
+					image.map((item, index) => {
+						return (
+							<div
+								key={index}
+								className={`${styles.slide} ${index === currentImage ? styles.slideActive : null}`}
+								style={{
+									backgroundImage: `url(${item})`,
+								}}
+							></div>
+						);
+					})}
 			</div>
 		</article>
 	);
