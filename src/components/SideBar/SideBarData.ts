@@ -3,7 +3,7 @@ import { appRoutes } from 'data/appRoutes/appRoutes';
 export const babycareLinks = [
 	{
 		id: 1,
-		title: 'babycare',
+		title: 'strona główna',
 		href: appRoutes.babycare,
 	},
 	{
@@ -61,7 +61,7 @@ export const babycareLinks = [
 export const preschoolLinks = [
 	{
 		id: 1,
-		title: 'preschool',
+		title: 'strona główna',
 		href: appRoutes.preschool,
 	},
 	{

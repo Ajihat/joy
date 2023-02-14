@@ -48,7 +48,7 @@ export const Adaptationtiles = () => {
 				<div className={styles.whiteBox}>
 					<img src={point} alt='point' className={styles.point} />
 					<p className={styles.smallText}>
-						W Joy BabyCare wiemy, że już na etapie poszukiwania najlepszego miejsca ważne jest, żeby poczuć
+						W Joy Babycare wiemy, że już na etapie poszukiwania najlepszego miejsca ważne jest, żeby poczuć
 						atmosferę żłobka. Zapraszamy Rodziców do nas, opowiadamy jak u nas jest, pokazujemy przestrzeń w
 						której maluszek za chwilę będzie stawiał pierwsze kroki. Takie spotkanie to solidna podstawa do
 						zbudowania zaufania.

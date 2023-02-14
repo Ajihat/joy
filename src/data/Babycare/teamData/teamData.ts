@@ -4,7 +4,7 @@ import img3 from 'assets/babycare/Team/babycare_team_img3.jpg';
 
 export const teamData = {
 	texts: [
-		`W Joy BabyCare uważamy, że dzieci to osoby, które zasługują na największą uwagę.`,
+		`W Joy Babycare uważamy, że dzieci to osoby, które zasługują na największą uwagę.`,
 		`Pod dobrą opieką troskliwych nauczycieli będą się doskonale rozwijać, dzięki czemu nie tylko
 dadzą pociechę rodzicom, ale także wiele osiągną w późniejszym życiu. Wiemy, jak ważna
 jest kadra wychowawców. Nasi nauczyciele są doskonale wykształceni, a mimo to wciąż
