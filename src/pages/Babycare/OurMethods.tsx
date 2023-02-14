@@ -128,10 +128,10 @@ export const OurMethods = () => {
 						id='pracownia-manualna'
 						accentImg={conffeti}
 						accentImgPosition='text'
-						top='3%'
+						top='inital'
 						left='initial'
 						right='5%'
-						bottom='initial'
+						bottom='5%'
 						isRound={false}
 						textColor='#1D1D1B'
 						paddingBottom='150px'
