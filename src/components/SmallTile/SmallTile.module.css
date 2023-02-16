@@ -13,7 +13,7 @@ display: flex;
         -ms-flex-align: center;
             align-items: center;
     width: 32%;
-    aspect-ratio: 546 / 600;
+    /* aspect-ratio: 546 / 600; */
     border-radius: 25px;
 }
 
@@ -137,7 +137,7 @@ display: flex;
     .tile {
         width: 100%;
         height: auto;
-        aspect-ratio: 546 / 450;
+        /* aspect-ratio: 546 / 450; */
     }
 
     .accent {
