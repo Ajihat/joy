@@ -147,11 +147,11 @@
         
     }
     .textCentered {
-        width: 190px;
+        width: 180px;
     }
     .heart {
         width: 90px;
-        transform: translate(0%,50%);
+        transform: translate(7%,50%);
     }
   }
 
