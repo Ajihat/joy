@@ -2,6 +2,8 @@ import { LinkButton } from 'components/LinkButton/LinkButton';
 
 import { BottomTilesProps } from './BottomTiles.types';
 
+import heart from 'assets/decorations/serce.svg';
+
 import styles from './BottomTiles.module.css';
 
 export const BottomTiles = ({
@@ -71,6 +73,7 @@ export const BottomTiles = ({
 					>
 						<p className={styles.textCentered} style={{ color: textColor }}>
 							{text2}
+							<img className={styles.heart} src={heart} alt='serce' />
 						</p>
 						<div className={styles.holder}>
 							<LinkButton linkText={linkText2} href={href2} textColor={textColor} />

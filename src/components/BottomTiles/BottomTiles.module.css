@@ -71,6 +71,14 @@
     max-width: 240px;
 }
 
+.heart {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 120px;
+    transform: translate(15%,50%);
+}
+
 
 
 .holder {
@@ -136,6 +144,14 @@
     }
     .text, .textCentered {
         font-size: 26px;
+        
+    }
+    .textCentered {
+        width: 190px;
+    }
+    .heart {
+        width: 90px;
+        transform: translate(0%,50%);
     }
   }
 
