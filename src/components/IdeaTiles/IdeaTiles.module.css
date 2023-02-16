@@ -21,7 +21,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-
     width: 32%;
     aspect-ratio: 546/600;
     padding: max(2.5%, 35px);
@@ -131,12 +130,11 @@
     .image, .singleImg {
         display: block;
         width: 100%;
-        aspect-ratio: 375/400;
         order: 1;
         margin-bottom: 25px;
     }
     .image {
-        max-height: 550px;
+        min-height: 400px;
     }
     .boxBottom:first-child {
         padding-top: 150px;
