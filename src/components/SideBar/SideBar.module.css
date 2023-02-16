@@ -60,3 +60,14 @@
         padding: 11px 0;
     } 
   }
+
+
+  @media (max-width: 330px) {
+
+    .link {
+        font-size: 18px;
+    }
+    .listitem {
+        padding: 8px 0;
+    } 
+  }
