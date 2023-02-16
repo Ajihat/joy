@@ -207,7 +207,7 @@ export const PreschoolTiles = () => {
 							anglojęzycznych.
 						</p>
 					</div>
-					<Link className={styles.link} to={appRoutes.preschool_our_methods + '#lekcje-angielskiego'}>
+					<Link className={styles.link} to={appRoutes.preschool_our_methods + '#angielski'}>
 						więcej
 					</Link>
 				</div>
