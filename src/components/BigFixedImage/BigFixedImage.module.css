@@ -3,8 +3,8 @@
     width: 66%;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    border-radius: 25px;
 }
 
 @media (max-width: 1350px) {

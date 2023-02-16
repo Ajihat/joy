@@ -7,10 +7,7 @@
 
 .img {
     position: relative;
-    /* width: calc(100% - 550px - 2% ); */
     width: 66%;
-    /* height: 850px; */
-    /* aspect-ratio: 550 / 750; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -72,13 +69,10 @@
     transform: scale(1.15);
     
 }
+
 @media (max-width: 1919px) {
     .paragraph {
-        font-size: 14px;
-    }
-    .header {
-        font-size: 22px;
-        margin-bottom: 15px;
+        font-size: 16px;
     }
 }
 
@@ -90,6 +84,7 @@
    .img {
     width: 100%;
     height: auto;
+    max-height: 550px;
     aspect-ratio: 363/483;
     order: 2;
     background-position: 25% 50%;
@@ -102,10 +97,7 @@
    .paragraph {
     font-size: 19px;
 }
-.header {
-    font-size: 25px;
-    margin-bottom: 30px;
-}
+
 }
 
 @media (max-width: 650px) {

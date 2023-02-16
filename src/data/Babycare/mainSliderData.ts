@@ -1,9 +1,7 @@
-import img1Desktop from 'assets/babycare/babycare_mainSlider_img1.jpg';
 import img2Desktop from 'assets/babycare/babycare_mainSlider_img2.jpg';
 import img3Desktop from 'assets/babycare/babycare_mainSlider_img3.jpg';
 import img4Desktop from 'assets/babycare/babycare_mainSlider_img4.jpg';
 
-import img1Mobile from 'assets/babycare/babycare_mainSlider_img1_mobile.jpg';
 import img2Mobile from 'assets/babycare/babycare_mainSlider_img2_mobile.jpg';
 import img3Mobile from 'assets/babycare/babycare_mainSlider_img3_mobile.jpg';
 import img4Mobile from 'assets/babycare/babycare_mainSlider_img4_mobile.jpg';
@@ -14,16 +12,6 @@ export const mainSliderData = [
 	{
 		id: 1,
 		images: {
-			imageDesktop: img1Desktop,
-			imageMobile: img1Mobile,
-		},
-		text: 'zamiłowanie do muzyki',
-		href: appRoutes.babycare_our_methods + '#pracownia-muzyczna',
-		color: '#EFC46E',
-	},
-	{
-		id: 2,
-		images: {
 			imageDesktop: img2Desktop,
 			imageMobile: img2Mobile,
 		},
@@ -32,7 +20,7 @@ export const mainSliderData = [
 		color: '#80AA6E',
 	},
 	{
-		id: 3,
+		id: 2,
 		images: {
 			imageDesktop: img3Desktop,
 			imageMobile: img3Mobile,
@@ -42,7 +30,7 @@ export const mainSliderData = [
 		color: '#E6CCCA',
 	},
 	{
-		id: 4,
+		id: 3,
 		images: {
 			imageDesktop: img4Desktop,
 			imageMobile: img4Mobile,

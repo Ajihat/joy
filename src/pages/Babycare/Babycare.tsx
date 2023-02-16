@@ -21,7 +21,7 @@ import flower from 'assets/decorations/flower.svg';
 import music from 'assets/decorations/music.svg';
 import conffeti from 'assets/decorations/conffeti.svg';
 import thread from 'assets/decorations/thread.svg';
-import vege from 'assets/decorations/vege.png';
+import vege from 'assets/decorations/vege.svg';
 import small1 from 'assets/babycare/babycare_small1.jpg';
 import fixed1 from 'assets/babycare/babycare_fixed1.jpg';
 import small2 from 'assets/babycare/babycare_small2.jpg';
@@ -55,7 +55,7 @@ export const Babycare = () => {
 					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
 				/>
 			</Helmet>
-			<MainSlider data={mainSliderData} isRound={false} />
+			<MainSlider data={mainSliderData} isRound={true} />
 			<PageWrapper>
 				<Holder additionalClass='row'>
 					<SmallTile
@@ -117,10 +117,11 @@ export const Babycare = () => {
 					linkText='jadłospis'
 					href={appRoutes.babycare_menu}
 					textColor='#1D1D1B'
-					isRound={false}
+					isRound={true}
 				/>
 				<BottomTiles
-					isRound={false}
+					isRound={true}
+					isCentered={false}
 					color1='#A8CAE5'
 					image1={fixed4}
 					text1='Czuła adaptacja to coś, czego rodzice szukają dla swojego maleństwa i dla siebie. To

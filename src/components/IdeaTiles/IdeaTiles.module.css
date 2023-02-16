@@ -1,6 +1,7 @@
 .tiles {
     padding: 0 5%;
-    margin-top: 150px
+    margin-top: 150px;
+    
 }
 
 .row {
@@ -23,16 +24,17 @@
 
     width: 32%;
     aspect-ratio: 546/600;
-    padding: max(2.5%, 35px)
+    padding: max(2.5%, 35px);
+  
 }
 
 .image {
 
     width: 66%;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .text {
@@ -101,7 +103,16 @@
         display: none;
     }
     .boxBottom {
-        width: 49%;
+        width: 355px;
+    }
+    .boxSuper {
+        width: 66%;
+        aspect-ratio: unset;
+        align-self: stretch;
+    }
+    .link {
+        font-size: 30px;
+        max-width: 170px;
     }
 }
 
@@ -124,9 +135,16 @@
         order: 1;
         margin-bottom: 25px;
     }
+    .image {
+        max-height: 550px;
+    }
     .boxBottom:first-child {
         padding-top: 150px;
         margin-bottom: 25px;
+    }
+    .link {
+        font-size: 35px;
+        max-width: 190px;
     }
     
 }

@@ -16,6 +16,7 @@
     background-color: #EFC46E;
     padding: max(2.5%, 35px);
     z-index: 5;
+    border-radius: 25px;
 }
 .boxHidden {
     display: none;
@@ -63,6 +64,7 @@
     width: 490px;
     background-color: white;
     z-index: 5;
+    border-radius: 25px;
 }
 
 .point {

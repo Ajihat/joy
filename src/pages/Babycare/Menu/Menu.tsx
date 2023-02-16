@@ -15,9 +15,9 @@ import { LogoHolder } from 'components/LogoHolder/LogoHolder';
 
 import headerImg from 'assets/babycare/Menu/babycare_menu_header.jpg';
 import headerImgMobile from 'assets/babycare/Menu/babycare_menu_header_mobile.jpg';
-import wheat from 'assets/decorations/wheat.png';
-import apple from 'assets/decorations/apple.png';
-import vege from 'assets/decorations/vege.png';
+import wheat from 'assets/decorations/wheat.svg';
+import apple from 'assets/decorations/apple.svg';
+import vege from 'assets/decorations/vege.svg';
 import sliderImg1 from 'assets/babycare/Menu/babycare_menu_slider1.jpg';
 import sliderImg2 from 'assets/babycare/Menu/babycare_menu_slider2.jpg';
 
@@ -49,7 +49,7 @@ export const Menu = () => {
 				image={headerImg}
 				imageMobile={headerImgMobile}
 				aligment='left'
-				isRound={false}
+				isRound={true}
 			/>
 			<PageWrapper>
 				<MenuMotto
@@ -90,7 +90,7 @@ export const Menu = () => {
 			 Dlatego naszych podopiecznych żywimy naturalnymi i urozmaiconymi produktami, zapewniamy im zbilansowanną dietę. Dodatkowo dzięki temu od małego wyrobią sobie odpowiednie nawyki żywieniowe.'
 					images={[sliderImg1, sliderImg2]}
 					boxPosition='left'
-					isRound={false}
+					isRound={true}
 				/>
 				<Footer color='#A9CAE5' />
 				<Burger site='babycare' />

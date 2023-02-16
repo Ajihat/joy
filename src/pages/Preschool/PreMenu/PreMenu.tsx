@@ -18,9 +18,9 @@ import headerImgMObile from 'assets/preschool/PreMenu/preschool_menu_header_mobi
 import slider1 from 'assets/preschool/PreMenu/preschool_menu_slider1.jpg';
 import slider2 from 'assets/preschool/PreMenu/preschool_menu_slider2.jpg';
 import slider3 from 'assets/preschool/PreMenu/preschool_menu_slider3.jpg';
-import wheat from 'assets/decorations/wheat.png';
-import apple from 'assets/decorations/apple.png';
-import vege from 'assets/decorations/vege.png';
+import wheat from 'assets/decorations/wheat.svg';
+import apple from 'assets/decorations/apple.svg';
+import vege from 'assets/decorations/vege.svg';
 
 import styles from './PreMenu.module.css';
 

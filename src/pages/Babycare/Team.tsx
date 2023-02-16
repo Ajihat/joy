@@ -43,7 +43,7 @@ export const Team = () => {
 				aligment='left'
 				image={headerImg}
 				imageMobile={headerImgMobile}
-				isRound={false}
+				isRound={true}
 			/>
 			<PageWrapper>
 				<Holder>
@@ -59,7 +59,7 @@ export const Team = () => {
 						left='initial'
 						bottom='40px'
 						right='40px'
-						isRound={false}
+						isRound={true}
 						textColor='#1D1D1B'
 						paddingBottom='150px'
 					/>

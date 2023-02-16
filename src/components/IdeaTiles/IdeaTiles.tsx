@@ -76,7 +76,7 @@ export const IdeaTiles = ({
 			</div>
 			<div className={styles.row}>
 				<div
-					className={`${styles.box} ${styles.boxBottom}`}
+					className={`${styles.box} ${styles.boxBottom} ${styles.boxSuper}`}
 					style={{
 						backgroundColor: color3,
 						justifyContent: 'center',

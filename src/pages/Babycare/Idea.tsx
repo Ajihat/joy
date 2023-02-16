@@ -64,7 +64,7 @@ dają dzieciom poczucie bezpieczeństwa.'
 					color4='#406780'
 					text4='Cieszymy się na nasze wspólne spotkanie!'
 					circleColor4='#A9CAE5'
-					isRound={false}
+					isRound={true}
 				/>
 				<Burger site='babycare' />
 				<SideBar site='babycare' />

@@ -41,7 +41,7 @@ export const PreOurmethods = () => {
 		const section = document.querySelector(ID);
 		const timeoutID = setTimeout(() => {
 			if (!section) return;
-			section.scrollIntoView(true);
+			section.scrollIntoView({ block: 'start', inline: 'nearest', behavior: 'smooth' });
 		}, 500);
 		return () => clearTimeout(timeoutID);
 	}, [hash]);

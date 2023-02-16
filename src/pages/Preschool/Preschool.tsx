@@ -65,6 +65,7 @@ bezpieczeństwa, motywuje maluchy do odkrywania świata i pobudza ich kreatywno�
 				/>
 				<BottomTiles
 					isRound={true}
+					isCentered={true}
 					image1={bottomImg1}
 					color1='#406780'
 					text1='Żywimy dzieci w zgodzie z naturą. Jemy warzywa i owoce lokalne, sezonowe, rosnące w

@@ -101,8 +101,8 @@ export const preschoolLinks = [
 	},
 	{
 		id: 9,
-		title: 'lekcje angielskiego',
-		href: appRoutes.preschool_our_methods + '#lekcje-angielskiego',
+		title: 'język angielski',
+		href: appRoutes.preschool_our_methods + '#angielski',
 	},
 
 	{

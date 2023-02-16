@@ -5,7 +5,7 @@ import chat from 'assets/decorations/chat.svg';
 
 export const English = () => {
 	return (
-		<section className={styles.section} id='lekcje-angielskiego'>
+		<article className={styles.section} id='angielski'>
 			<div className={styles.inner}>
 				<h2 className={styles.header}>zanurzenie w języku angielskim</h2>
 				<p className={styles.text}>
@@ -32,6 +32,6 @@ export const English = () => {
 				<img className={styles.img} src={englishImg} alt='lekcje-angielskiego' />
 				<img className={styles.decoration} src={chat} alt='chat' />
 			</div>
-		</section>
+		</article>
 	);
 };

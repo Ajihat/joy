@@ -54,7 +54,7 @@ export const Contact = () => {
 					image4={img4}
 					color='#E5EEF1'
 					logo={babycareLogo}
-					isRound={false}
+					isRound={true}
 					circleColor='#A9CAE5'
 				/>
 				<Burger site='babycare' />

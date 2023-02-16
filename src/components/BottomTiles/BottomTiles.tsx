@@ -6,6 +6,7 @@ import styles from './BottomTiles.module.css';
 
 export const BottomTiles = ({
 	isRound,
+	isCentered,
 	image1,
 	color1,
 	text1,
@@ -44,20 +45,38 @@ export const BottomTiles = ({
 				</div>
 			</div>
 			<div className={styles.row}>
-				<div
-					className={styles.box}
-					style={{
-						borderRadius: isRound ? '25px' : '0',
-						backgroundColor: color2,
-					}}
-				>
-					<p className={styles.text} style={{ color: textColor }}>
-						{text2}
-					</p>
-					<div className={styles.holder}>
-						<LinkButton linkText={linkText2} href={href2} textColor={textColor} />
+				{!isCentered && (
+					<div
+						className={styles.box}
+						style={{
+							borderRadius: isRound ? '25px' : '0',
+							backgroundColor: color2,
+						}}
+					>
+						<p className={styles.text} style={{ color: textColor }}>
+							{text2}
+						</p>
+						<div className={styles.holder}>
+							<LinkButton linkText={linkText2} href={href2} textColor={textColor} />
+						</div>
 					</div>
-				</div>
+				)}
+				{isCentered && (
+					<div
+						className={styles.boxCentered}
+						style={{
+							borderRadius: isRound ? '25px' : '0',
+							backgroundColor: color2,
+						}}
+					>
+						<p className={styles.textCentered} style={{ color: textColor }}>
+							{text2}
+						</p>
+						<div className={styles.holder}>
+							<LinkButton linkText={linkText2} href={href2} textColor={textColor} />
+						</div>
+					</div>
+				)}
 				<div
 					className={`${styles.image} ${styles.right}`}
 					style={{

@@ -1,5 +1,6 @@
 export interface BottomTilesProps {
 	isRound: boolean;
+	isCentered: boolean;
 	image1: string;
 	color1: string;
 	text1: string;

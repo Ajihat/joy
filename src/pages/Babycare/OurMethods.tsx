@@ -35,7 +35,7 @@ export const OurMethods = () => {
 		const section = document.querySelector(ID);
 		const timeoutID = setTimeout(() => {
 			if (!section) return;
-			section.scrollIntoView(true);
+			section.scrollIntoView({ block: 'start', inline: 'nearest', behavior: 'smooth' });
 		}, 500);
 		return () => clearTimeout(timeoutID);
 	}, [hash]);
@@ -64,7 +64,7 @@ export const OurMethods = () => {
 				text='nasze metody'
 				color='#E6CCCA'
 				aligment='right'
-				isRound={false}
+				isRound={true}
 			/>
 			<PageWrapper>
 				<Holder>
@@ -81,7 +81,7 @@ export const OurMethods = () => {
 						left='initial'
 						right='5%'
 						bottom='5%'
-						isRound={false}
+						isRound={true}
 						textColor='#1D1D1B'
 						paddingBottom='150px'
 					/>
@@ -98,7 +98,7 @@ export const OurMethods = () => {
 						left='initial'
 						right='5%'
 						bottom='5%'
-						isRound={false}
+						isRound={true}
 						textColor='#1D1D1B'
 						paddingBottom='150px'
 					/>
@@ -115,7 +115,7 @@ export const OurMethods = () => {
 						left='initial'
 						right='5%'
 						bottom='5%'
-						isRound={false}
+						isRound={true}
 						textColor='#1D1D1B'
 						paddingBottom='150px'
 					/>
@@ -132,7 +132,7 @@ export const OurMethods = () => {
 						left='initial'
 						right='5%'
 						bottom='5%'
-						isRound={false}
+						isRound={true}
 						textColor='#1D1D1B'
 						paddingBottom='150px'
 					/>

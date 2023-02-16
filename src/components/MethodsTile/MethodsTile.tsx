@@ -101,6 +101,7 @@ export const MethodsTile = ({
 								className={`${styles.slide} ${index === currentImage ? styles.slideActive : null}`}
 								style={{
 									backgroundImage: `url(${item})`,
+									borderRadius: isRound ? '25px' : '0',
 								}}
 							></div>
 						);
