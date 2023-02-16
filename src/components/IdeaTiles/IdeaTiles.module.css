@@ -84,9 +84,6 @@
 
 
 @media (max-width: 1400px) {
-    .text {
-        font-size: 16px;
-    }
     .circle {
         width: 60px;
         height: 60px;
