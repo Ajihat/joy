@@ -5,7 +5,7 @@
 .row {
     display: flex;;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 .row:first-child {
@@ -19,7 +19,7 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 546px;
-    aspect-ratio: 546/600;
+    /* aspect-ratio: 546/600; */
     padding: max(2.5%, 35px);
     padding-bottom: 20px;
 }
@@ -31,7 +31,6 @@
     justify-content: flex-end;
     align-items: flex-start;
     width: 546px;
-    aspect-ratio: 546/600;
     padding: max(2.5%, 35px);
     padding-bottom: 20px;
     
@@ -103,8 +102,7 @@
     }
     .image {
         width: 100%;
-        aspect-ratio: 364/400;
-        max-height: 550px;
+        min-height: 500px;
         height: auto;
         order:1
     }
@@ -116,8 +114,7 @@
         aspect-ratio: unset;
     }
     .boxCentered {
-        aspect-ratio: 1/1.15;
-        max-height: 400px;
+        min-height: 400px;
     }
     .text {
         margin-bottom: 50px
