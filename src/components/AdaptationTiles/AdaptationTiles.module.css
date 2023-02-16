@@ -8,11 +8,19 @@
     background-size: 100%;
 }
 
-.box {
+.yellowHolder {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1920px;
+    z-index: 5;
+}
+.box {
+    position: relative;
     width: 490px;
-    top: 40%;
-    left: 7%;
+    left: 5%;
     background-color: #EFC46E;
     padding: max(2.5%, 35px);
     z-index: 5;
@@ -52,6 +60,16 @@
     height: 700px;
 }
 
+.whiteHolder {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1920px;
+    z-index: 5;
+}
+
 .whiteBox {
     display: flex;
     flex-direction: column;
@@ -59,8 +77,7 @@
     align-items: flex-start;
     position: absolute;
     padding: max(2.5%, 35px);
-    top: -20%;
-    right: 7%;
+    right: 5%;
     width: 490px;
     background-color: white;
     z-index: 5;
@@ -74,7 +91,7 @@
 
 .arc {
     position: absolute;
-    bottom: 10%;
+    bottom: 35%;
     right: 15%;
 }
 

@@ -35,32 +35,38 @@ export const Adaptationtiles = () => {
 					backgroundImage: `url(${headerImg})`,
 				}}
 			>
-				<div className={styles.box}>
-					<p className={styles.text}>
-						Czuła adaptacja to coś, czego rodzice szukają dla swojego maleństwa i dla siebie. To poznanie
-						się w atmosferze szacunku i zrozumienia, a także kameralność miejsca, łagodność w relacji i dużo
-						ciepła w kontakcie z maluszkiem.
-					</p>
+				<div className={styles.yellowHolder}>
+					<div className={styles.box}>
+						<p className={styles.text}>
+							Czuła adaptacja to coś, czego rodzice szukają dla swojego maleństwa i dla siebie. To
+							poznanie się w atmosferze szacunku i zrozumienia, a także kameralność miejsca, łagodność w
+							relacji i dużo ciepła w kontakcie z maluszkiem.
+						</p>
+					</div>
 				</div>
+
 				<img src={arc} alt='łuk' className={styles.arc} />
 			</div>
 			<div className={styles.bottom}>
-				<div className={styles.whiteBox}>
-					<img src={point} alt='point' className={styles.point} />
-					<p className={styles.smallText}>
-						W Joy Babycare wiemy, że już na etapie poszukiwania najlepszego miejsca ważne jest, żeby poczuć
-						atmosferę żłobka. Zapraszamy Rodziców do nas, opowiadamy jak u nas jest, pokazujemy przestrzeń w
-						której maluszek za chwilę będzie stawiał pierwsze kroki. Takie spotkanie to solidna podstawa do
-						zbudowania zaufania.
-					</p>
-					<img src={point} alt='point' className={styles.point} />
-					<p className={styles.smallText}>
-						Maluszka i rodzica wita uśmiechnięta nauczycielka i zaprasza do dalszej wspólnej podróży.
-						Podczas dwutygodniowej adaptacji powoli poznajemy się, zbliżamy, otwieramy na nowe
-						doświadczenia. Rodzic towarzyszy dziecku korzystając ze wskazówek doświadczonych pedagogów,
-						którzy z pełnym zrozumieniem dla emocji doradzają jak wesprzeć malucha.
-					</p>
+				<div className={styles.whiteHolder}>
+					<div className={styles.whiteBox}>
+						<img src={point} alt='point' className={styles.point} />
+						<p className={styles.smallText}>
+							W Joy Babycare wiemy, że już na etapie poszukiwania najlepszego miejsca ważne jest, żeby
+							poczuć atmosferę żłobka. Zapraszamy Rodziców do nas, opowiadamy jak u nas jest, pokazujemy
+							przestrzeń w której maluszek za chwilę będzie stawiał pierwsze kroki. Takie spotkanie to
+							solidna podstawa do zbudowania zaufania.
+						</p>
+						<img src={point} alt='point' className={styles.point} />
+						<p className={styles.smallText}>
+							Maluszka i rodzica wita uśmiechnięta nauczycielka i zaprasza do dalszej wspólnej podróży.
+							Podczas dwutygodniowej adaptacji powoli poznajemy się, zbliżamy, otwieramy na nowe
+							doświadczenia. Rodzic towarzyszy dziecku korzystając ze wskazówek doświadczonych pedagogów,
+							którzy z pełnym zrozumieniem dla emocji doradzają jak wesprzeć malucha.
+						</p>
+					</div>
 				</div>
+
 				<div className={styles.boxHidden}>
 					<p className={styles.text}>
 						Czuła adaptacja to coś, czego rodzice szukają dla swojego maleństwa i dla siebie. To poznanie
