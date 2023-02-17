@@ -9,7 +9,7 @@ export const FoodTile = ({ color, text, image, justifyContent, imageClass, isRou
 			style={{
 				backgroundColor: color,
 				justifyContent,
-				borderRadius: isRound ? '50%' : '0',
+				borderRadius: isRound ? '50%' : '25px',
 			}}
 		>
 			<p

@@ -20,6 +20,7 @@ export const BottomTiles = ({
 	linkText2,
 	href2,
 	textColor,
+	backgroundPosition,
 }: BottomTilesProps) => {
 	return (
 		<div className={styles.tiles}>
@@ -29,6 +30,7 @@ export const BottomTiles = ({
 					style={{
 						borderRadius: isRound ? '25px' : '0',
 						backgroundImage: `url(${image1})`,
+						backgroundPosition,
 					}}
 				></div>
 				<div

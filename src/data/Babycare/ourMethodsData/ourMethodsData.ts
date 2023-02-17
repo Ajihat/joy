@@ -8,7 +8,7 @@ export const ourMethodsData = {
     różnorodnością brzmień i ciekawą dynamiką. Logorytmika uwrażliwia dzieci na
     podobieństwo muzyki i wypowiedzi, czyli: rytm, tempo, wysokość dźwięku, głośność, akcent,
     frazowanie i artykulację. Efektem umuzykalnienia metodą Batii Strauss jest kształtowanie
-    ruchów całego ciała, które współgrają z muzyką a „Kołysanki dźwiękiem malowane” wg
+    ruchów całego ciała, które współgrają z muzyką a „Kołysanki dźwiękiem malowane” według
     programu Pomelody dają wyciszenie i ukojenie. Dopełnieniem muzycznego warsztatu jest
     umuzykalnienie metodą Yamaha, które rozwija wrodzony potencjał dziecka pod okiem
     wyjątkowo dobranej i przeszkolonej kadry muzyków.`,
@@ -23,14 +23,14 @@ export const ourMethodsData = {
 		`Wspiera nas w tym Ruch Rozwijający Weroniki Sherborne, czyli zabawy i ćwiczenia
 wywodzące się z naturalnych potrzeb dziecka, zaspokajanych w kontakcie z dorosłymi. Ruch
 Rozwijający to nic innego, jak przytulanie, kołysanie, unoszenie, poznanie mapy ciała za
-pomocą dotyku. Dzieci im są mniejsze, ty`,
+pomocą dotyku. Dzieci im są mniejsze, tym potrzebują więcej kontaktu dotykowego, który jest dla nich przejawem uwagi i czułości.`,
 		`Dzięki zabawom ruchowym rozwijamy świadomość własnego ciała i usprawniamy motorykę,
-dzieci poznają otaczającą je przestrzeń i uczą się dzielenia jej z innymi. Budujemy relację JATY.`,
+dzieci poznają otaczającą je przestrzeń i uczą się dzielenia jej z innymi. Budujemy relację JA-TY.`,
 		`Chętnie działamy w plenerze, doświadczając w kontakcie z otaczającą nas przyrodą. Nasi
 podopieczni uprawiają własne ogródki, piknikują, odkrywają tajemnice małych stworzeń
 zamieszkujących nasz plac zabaw. Codzienna, długotrwała zabawa na dworze pozwala
 znaleźć czas zarówno na edukację przyrodniczą jak i zabawę np. w kuchni błotnej. Przecież
-dziecko „brudne” to dziecko szczęśliwe:)`,
+dziecko „brudne” to dziecko szczęśliwe :)`,
 	],
 	bliskie_wiezi: [
 		`Wiemy, jak ważnym okresem dla rozwoju dziecka są pierwsze trzy lata jego życia.

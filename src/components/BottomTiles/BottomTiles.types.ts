@@ -12,4 +12,5 @@ export interface BottomTilesProps {
 	linkText2: string;
 	href2: string;
 	textColor: string;
+	backgroundPosition?: string;
 }

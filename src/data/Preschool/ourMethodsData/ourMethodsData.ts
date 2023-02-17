@@ -28,7 +28,7 @@ export const ourMethodsData = {
         ruchowy, przyzwyczajamy dziecko do wysiłku, uczymy walki z przeciwnościami i współpracy.`,
 	],
 	swoboda_tworzenia: [
-		`W Joy PreSchool na co dzień dużo lepimy, tworzymy i malujemy na dużych płaszczyznach
+		`W Joy Preschool na co dzień dużo lepimy, tworzymy i malujemy na dużych płaszczyznach
         odkrywając twórczy potencjał dziecka. Nasze dzieci mają dostęp do całej gamy materiałów
         plastycznych, tj. pastele, modelina czy farby i samodzielnie kierują swoją potrzebą tworzenia.`,
 		`W akcie tworzenia nasze sale zamieniają się w pracownie rękodzieła. Każdy wytwór jest

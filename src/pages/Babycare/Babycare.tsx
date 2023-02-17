@@ -63,7 +63,7 @@ export const Babycare = () => {
 						header='zamiłowanie do muzyki'
 						text='Wspólne muzykowanie relaksuje ale także ośmiela, budzi pozytywne emocje. Cała gama
 					muzycznych aktywności zaskakuje przyjemną, lecz niebanalną melodią, różnorodnością
-					brzmień i ciekawą dynamiką. W Joy BabyCare każde dziecko znajdzie przestrzeń, w której
+					brzmień i ciekawą dynamiką. W Joy Babycare każde dziecko znajdzie przestrzeń, w której
 					pod czułą opieką będzie mogło rozwijać swoją muzyczną wrażliwość i gust muzyczny.'
 						accentImg={music}
 						image={small1}
@@ -136,6 +136,7 @@ w relacji i dużo ciepła w kontakcie z maluszkiem.'
 					linkText2='załoga Joy'
 					href2={appRoutes.babycare_team}
 					textColor='#1D1Dsvg'
+					backgroundPosition='40% 75%'
 				/>
 				<Footer color='#A9CAE5' />
 				<Burger site='babycare' />

@@ -79,6 +79,7 @@ rozwijamy zdrowe nawyki żywieniowe.'
 					linkText2='nasza baza'
 					href2={appRoutes.preschool_contact}
 					textColor='white'
+					backgroundPosition='40% 75%'
 				/>
 				<Burger site='preschool' />
 				<SideBar site='preschool' />
