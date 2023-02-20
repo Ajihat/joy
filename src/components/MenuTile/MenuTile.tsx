@@ -2,6 +2,8 @@ import { LinkButton } from 'components/LinkButton/LinkButton';
 
 import { MenuTileProps } from './MenuTile.types';
 
+import { useDeviceContext } from 'context/DeviceContext/useDeviceContext';
+
 import redCircle from 'assets/decorations/red-circle.svg';
 import blueCircle from 'assets/decorations/adaptation_circle.svg';
 import blueTriangle from 'assets/decorations/blue-triangle.svg';
@@ -10,12 +12,14 @@ import greenArc from 'assets/decorations/green-arc.svg';
 import styles from './MenuTile.module.css';
 
 export const MenuTile = ({ image, color, accentImg, text, href, linkText, textColor, isRound }: MenuTileProps) => {
+	const {isDeviceIos} = useDeviceContext();
 	return (
 		<>
 			<div
 				className={styles.tile}
 				style={{
 					backgroundImage: `url(${image})`,
+					backgroundAttachment: isDeviceIos ? 'initail' : 'fixed'
 				}}
 			>
 				<div
