@@ -1,5 +1,5 @@
 import ReactDom from 'react-dom';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import { useCookiesContext } from 'context/CookiesContext/useCookiesContext';
 
@@ -11,6 +11,7 @@ import styles from './Popup.module.css';
 
 export const Popup = () => {
 	const { areCookiesAccepted, setAreCookiesAccepted } = useCookiesContext();
+	const location = useLocation();
 
 	const handleClick = () => {
 		localStorage.setItem('cookies', 'true');
@@ -22,7 +23,7 @@ export const Popup = () => {
 		setAreCookiesAccepted(true);
 	};
 
-	if (areCookiesAccepted) return null;
+	if (areCookiesAccepted || location.pathname === appRoutes.cookies_policy) return null;
 
 	return ReactDom.createPortal(
 		<div className={styles.holder}>
