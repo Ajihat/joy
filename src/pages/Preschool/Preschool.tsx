@@ -71,7 +71,7 @@ bezpieczeństwa, motywuje maluchy do odkrywania świata i pobudza ich kreatywno�
 					text1='Żywimy dzieci w zgodzie z naturą. Jemy warzywa i owoce lokalne, sezonowe, rosnące w
 naszym kraju. Wybieramy żywność jak najmniej przetworzoną, dzięki temu od małego
 rozwijamy zdrowe nawyki żywieniowe.'
-					linkText1='wyżywienie'
+					linkText1='jadłospis'
 					href1={appRoutes.preschool_menu}
 					image2={bottomImg2}
 					color2='#8F3E35'

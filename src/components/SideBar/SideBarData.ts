@@ -86,7 +86,7 @@ export const preschoolLinks = [
 	},
 	{
 		id: 6,
-		title: 'prowokacje edukacyjne',
+		title: 'pracownia edukacyjna',
 		href: appRoutes.preschool_our_methods + '#prowokacje-edukacyjne',
 	},
 	{

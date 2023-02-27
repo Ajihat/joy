@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { ScrollToTop } from 'components/ScrollToTop/ScrollToTop';
 
 import { Home } from 'pages/Home/Home';
+import { Popup } from 'components/Popup/Popup';
 //Babycare
 import { Babycare } from 'pages/Babycare/Babycare';
 import { Idea } from 'pages/Babycare/Idea';
@@ -45,6 +46,7 @@ export const App = () => {
 				<Route path={appRoutes.preschool_contact} element={<PreContact />} />
 			</Routes>
 			<ScrollToTop />
+			<Popup />
 		</div>
 	);
 };
