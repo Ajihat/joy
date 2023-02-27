@@ -34,7 +34,7 @@ export const CookiesPage = () => {
 					pozbawia użytkownika dostępu do zasobów serwisu.
 				</p>
 				<div className={styles.linkHolder}>
-					<LinkButton linkText='powrót do strony głownej' href={appRoutes.homePage} textColor='white' />
+					<LinkButton linkText='powrót do strony głównej' href={appRoutes.homePage} textColor='white' />
 				</div>
 			</div>
 		</div>
