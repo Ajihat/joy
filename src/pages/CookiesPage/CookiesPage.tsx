@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet-async';
+
 import { LinkButton } from 'components/LinkButton/LinkButton';
 
 import { appRoutes } from 'data/appRoutes/appRoutes';
@@ -7,6 +9,9 @@ import styles from './CookiesPage.module.css';
 export const CookiesPage = () => {
 	return (
 		<div className={styles.page}>
+			<Helmet>
+				<title>Joy | Polityka cookies</title>
+			</Helmet>
 			<div className={styles.inner}>
 				<h1 className={styles.header}>polityka cookies</h1>
 				<p className={styles.text}>
