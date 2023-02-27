@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { ScrollToTop } from 'components/ScrollToTop/ScrollToTop';
 
 import { Home } from 'pages/Home/Home';
+import { NoMatch } from 'pages/NoMatch/NoMatch';
 import { Popup } from 'components/Popup/Popup';
 //Babycare
 import { Babycare } from 'pages/Babycare/Babycare';
@@ -44,6 +45,8 @@ export const App = () => {
 				<Route path={appRoutes.preschool_team} element={<PreTeam />} />
 				<Route path={appRoutes.preschool_menu} element={<PreMenu />} />
 				<Route path={appRoutes.preschool_contact} element={<PreContact />} />
+				{/* Additional */}
+				<Route path='/*' element={<NoMatch />} />
 			</Routes>
 			<ScrollToTop />
 			<Popup />
