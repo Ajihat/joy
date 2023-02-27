@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import { useCookiesContext } from 'context/CookiesContext/useCookiesContext';
 
+import { appRoutes } from 'data/appRoutes/appRoutes';
+
 import colseImg from 'assets/decorations/close-btn.svg';
 
 import styles from './Popup.module.css';
@@ -28,7 +30,7 @@ export const Popup = () => {
 				<p className={styles.text}>
 					Korzystamy z plików cookies dzięki, którym nasza strona może lepiej działać w celach reklamowych i
 					statystycznych zgodnie z{' '}
-					<Link className={styles.text} to='sdaa'>
+					<Link className={styles.text} to={appRoutes.cookies_policy}>
 						Polityką Prywatności.
 					</Link>
 				</p>

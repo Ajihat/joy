@@ -4,6 +4,7 @@ import { ScrollToTop } from 'components/ScrollToTop/ScrollToTop';
 
 import { Home } from 'pages/Home/Home';
 import { NoMatch } from 'pages/NoMatch/NoMatch';
+import { CookiesPage } from 'pages/CookiesPage/CookiesPage';
 import { Popup } from 'components/Popup/Popup';
 //Babycare
 import { Babycare } from 'pages/Babycare/Babycare';
@@ -47,6 +48,7 @@ export const App = () => {
 				<Route path={appRoutes.preschool_contact} element={<PreContact />} />
 				{/* Additional */}
 				<Route path='/*' element={<NoMatch />} />
+				<Route path={appRoutes.cookies_policy} element={<CookiesPage />} />
 			</Routes>
 			<ScrollToTop />
 			<Popup />

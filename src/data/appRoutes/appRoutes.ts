@@ -15,4 +15,6 @@ export const appRoutes = {
 	babycare_menu: '/babycare/jadłospis',
 	babycare_adaptation: '/babycare/adaptacja',
 	babycare_contact: '/babycare/kontakt',
+	//others
+	cookies_policy: '/regulamin-cookies',
 };
