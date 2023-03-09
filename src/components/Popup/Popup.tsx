@@ -14,12 +14,12 @@ export const Popup = () => {
 	const location = useLocation();
 
 	const handleClick = () => {
-		localStorage.setItem('cookies', 'true');
+		sessionStorage.setItem('cookies', 'true');
 		setAreCookiesAccepted(true);
 	};
 
 	const handleClose = () => {
-		localStorage.setItem('cookies', 'false');
+		sessionStorage.setItem('cookies', 'false');
 		setAreCookiesAccepted(true);
 	};
 

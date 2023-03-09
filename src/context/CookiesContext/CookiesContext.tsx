@@ -6,7 +6,7 @@ export const CookiesContext = createContext<null | ICookiesContext>(null);
 
 export const CookiesProvider = ({ children }: CookiesProviderProps) => {
 	const [areCookiesAccepted, setAreCookiesAccepted] = useState<boolean>(() => {
-		const storedValue = localStorage.getItem('cookies');
+		const storedValue = sessionStorage.getItem('cookies');
 		if (storedValue === null) {
 			return false;
 		} else {
