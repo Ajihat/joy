@@ -60,7 +60,7 @@ absolwentów.'
 					image3={image3}
 					color3='#B6842B'
 					text3='Tworzymy atmosferę zaufania, wzrastania
-                i rozwoju w poczucie bezpieczeństwa
+                i rozwoju w poczuciu bezpieczeństwa
                 i akceptacji. Ważna jest dla nas bliskość
                 i szczerość relacji.'
 					circleColor3='#EFC46E'

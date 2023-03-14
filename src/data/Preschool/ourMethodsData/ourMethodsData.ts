@@ -3,7 +3,7 @@ export const ourMethodsData = {
 		`Muzyka łagodzi obyczaje, pomaga nam budować więzi i zbliża nas do siebie. Jest ważna w
         naszej codzienności. `,
 		`Dzień zaczynamy piosenką, puszczając iskierkę przyjaźni wsłuchujemy się w dźwięki naszego
-        ciała i najbliższego otoczenia, naszym działaniom plastycznym często towarzyszy spokojna
+        ciała i najbliższego otoczenia, naszym działaniom plastycznym często towarzyszy spokojna,
         kojąca muzyka, a w trakcie odpoczynku z głośnika płynie relaksacyjna melodia.`,
 		`Ważny jest dla nas kontakt z muzyką na żywo, w czym wspiera nas uzdolniona kadra Szkoły
         Muzycznej Yamaha. Dźwięk gitary czy śpiew uwrażliwia i budzi pozytywne emocje. Lubimy
@@ -20,7 +20,7 @@ export const ourMethodsData = {
         kuchni błotnej, w której powstają błotne kotlety, koktajle piaskowe czy zupy liściasto –
         iglaste wzbogacają dziecięcą ciekawość poznawczą. Nie zapominamy o spacerach do
         pobliskiego lasu, gdzie na łonie natury poznajemy tajemnice przyrody.`,
-		`W JoyPreschool przyzwyczajamy również dzieci do regularnej aktywności fizycznej, dlatego
+		`W Joy Preschool przyzwyczajamy również dzieci do regularnej aktywności fizycznej, dlatego
         dwa – trzy razy w tygodniu, także zimą dzieci mają zajęcia sportowe na świeżym powietrzu.
         Ich długość i częstotliwość dostosowana jest do grupy wiekowej.`,
 		`Aktywność fizyczna na dworze skutecznie buduje odporność i chroni przez infekcjami.
@@ -53,7 +53,7 @@ export const ourMethodsData = {
 		`Metoda projektów integruje treści z różnych dziedzin edukacyjnych. Gotowość do
         rozpoczęcia nauki czytania i pisania rozpoczynamy już w grupie najmłodszej. Cały program
         edukacyjny ściśle oparty jest na metodzie glottodydaktyki prof. Bronisława Rocławskiego.
-        W edukacji matematycznej korzystamy z programu i wskazówek prof. E. GruszczykKolczyńskiej i dr E. Zielińskiej, twórczyń "Dziecięcej matematyki".`,
+        W edukacji matematycznej korzystamy z programu i wskazówek prof. E. Gruszczyk Kolczyńskiej i dr E. Zielińskiej, twórczyń "Dziecięcej matematyki".`,
 	],
 	pasja_do_literatury: [
 		`Pracownia literacka powstała z pasji do czytania dzieciom i zamiłowania do dobrej dziecięcej
@@ -77,7 +77,7 @@ export const ourMethodsData = {
 	],
 	bliskie_wiezi: [
 		`Co takiego mieści się pod hasłem bliskie więzi? To budowanie samoświadomości naszych
-        przedszkolaków, pewności siebie i asertywności. Dzieci osiągają te umiejętności min. dzięki
+        przedszkolaków, pewności siebie i asertywności. Dzieci osiągają te umiejętności m.in. dzięki
         ćwiczeniom „Uważności Żabki”. Uczą się wyrażać swoje emocje i pokonywać trudności,
         wchodząc w role podczas zajęć dramy. Gdy nadmiar bodźców bierze nad nami górę
         wspieramy się masażami relaksacyjnymi czy mantrą.`,
