@@ -33,6 +33,7 @@ export const Idea = () => {
 					property='og:image'
 					content='https://raw.githubusercontent.com/Ajihat/joy/main/src/assets/social-logo.jpg'
 				/>
+				<meta property='og:image' content='http://www.joypreschool.pl/social-media.png' />
 			</Helmet>
 			<PageWrapper>
 				<IdeaMotto

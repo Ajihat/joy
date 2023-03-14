@@ -26,7 +26,7 @@ export const Home = () => {
 					content='Witamy w Joy Preschool & Babycare. To przyjazne miejsce dla Twojego dziecka.'
 				/>
 				<meta property='og:type' content='website' />
-				<meta property='og:image' content='tutaj url' />
+				<meta property='og:image' content='http://www.joypreschool.pl/social-media.png' />
 			</Helmet>
 			<div className={styles.logoHolder}>
 				<HomeLogo />
